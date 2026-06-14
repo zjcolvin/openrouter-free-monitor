@@ -1,0 +1,45 @@
+name: OpenRouter Free Models Monitor
+
+on:
+  schedule:
+    # 每天 UTC 時間 01:00 (台北時間早上 9:00) 自動執行一次
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允許在 GitHub 頁面上點擊按鈕手動觸發執行
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # 允許提交變更回儲存庫
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run Monitor Script
+      env:
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        ALERT_MENTION: ${{ secrets.ALERT_MENTION }}
+      run: python openrouter_free_monitor.py
+
+    - name: Commit and Push State Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        # 追蹤狀態檔案與歷史檔案
+        git add output/openrouter_free_state.json output/openrouter_free_history.json || true
+        # 如果檔案有變更則提交並推送
+        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update state & history logs [skip ci]" && git push)
