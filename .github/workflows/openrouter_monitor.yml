@@ -39,7 +39,8 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        # 追蹤狀態檔案與歷史檔案
-        git add output/openrouter_free_state.json output/openrouter_free_history.json || true
+        # 檢查並追蹤存在的狀態與歷史檔案
+        [ -f output/openrouter_free_state.json ] && git add output/openrouter_free_state.json || true
+        [ -f output/openrouter_free_history.json ] && git add output/openrouter_free_history.json || true
         # 如果檔案有變更則提交並推送
         git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update state & history logs [skip ci]" && git push)
