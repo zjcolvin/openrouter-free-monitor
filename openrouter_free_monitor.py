@@ -590,16 +590,15 @@ def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, Model
             arrow = "▲" if r.rank_change > 0 else "▼"
             changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** | `{r.model_id}`: 排名 `#{r.previous_rank}` ➡️ `#{r.rank_position}` ({arrow} {abs(r.rank_change)})")
             
-    # 性能排序前 10
+    # 採用官方的性能排名排序前 10
     active = [r for r in rows if r.current_status in ["Active", "New", "Upgraded", "Renamed", "Moved"]]
     
-    def get_perf_score(r):
-        meta = current.get(r.model_id)
-        if meta and meta.performance_score is not None:
-            return meta.performance_score
-        return -1.0
+    def get_official_rank(r):
+        if r.rank_position is not None:
+            return r.rank_position
+        return 999999
         
-    active.sort(key=get_perf_score, reverse=True)
+    active.sort(key=get_official_rank)
     top_10 = active[:10]
     
     fields = []
