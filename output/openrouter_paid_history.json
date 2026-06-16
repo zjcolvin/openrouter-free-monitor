@@ -5,5 +5,12 @@
     "model_name": "xAI: Grok 4.20 Multi-Agent",
     "status": "Price Drop",
     "note": "Blended Price dropped from $3.00 to $1.56 (省 48%)"
+  },
+  {
+    "timestamp": "2026-06-16 21:58:32 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.11 (省 8%)"
   }
 ]
