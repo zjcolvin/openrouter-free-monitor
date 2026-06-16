@@ -2,7 +2,8 @@
 import json
 import os
 import re
-from dataclasses import dataclass, asdict
+import time
+from dataclasses import dataclass, asdict, field
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -27,6 +28,17 @@ class ModelRecord:
     rank_position: Optional[int]
     context_length: Optional[int] = None
     output_modalities: Optional[List[str]] = None
+    performance_score: Optional[float] = None
+    perf_source: str = "N/A"
+    latency_ms: Optional[float] = None
+    throughput_tps: Optional[float] = None
+    parameter_size: str = "N/A"
+    uptime_history: List[float] = field(default_factory=list)
+    uptime_1d: Optional[float] = None
+    uptime_30m: Optional[float] = None
+    vision: bool = False
+    tool_calling: bool = False
+    reasoning: bool = False
 
 
 @dataclass
@@ -87,6 +99,31 @@ def fetch_free_ranking() -> List[str]:
         return []
 
 
+def extract_parameter_size(name: str, description: str) -> str:
+    text = f"{description or ''} {name or ''}"
+    match = re.search(r'\b\d+(?:\.\d+)?\s*[xX]\s*\d+[bB]\b|\b\d+(?:\.\d+)?\s*[bB]\b', text)
+    if match:
+        return re.sub(r'\s+', '', match.group(0)).upper()
+    return "N/A"
+
+
+def get_uptime_trend_emoji(history: List[float]) -> str:
+    if not history:
+        return "⬜⬜⬜⬜⬜⬜⬜"
+    padded = [None] * (7 - len(history)) + history
+    emojis = []
+    for val in padded:
+        if val is None:
+            emojis.append("⬜")
+        elif val >= 98.0:
+            emojis.append("🟩")
+        elif val >= 90.0:
+            emojis.append("🟨")
+        else:
+            emojis.append("🟥")
+    return "".join(emojis)
+
+
 def build_current_snapshot(raw_models: List[dict], ranked_ids: List[str]) -> Dict[str, ModelRecord]:
     ranked_map = {mid: idx + 1 for idx, mid in enumerate(ranked_ids)}
     current: Dict[str, ModelRecord] = {}
@@ -108,6 +145,40 @@ def build_current_snapshot(raw_models: List[dict], ranked_ids: List[str]) -> Dic
         top_provider = item.get("top_provider") or {}
         context_length = top_provider.get("context_length") or item.get("context_length")
         output_modalities = item.get("output_modalities") or top_provider.get("output_modalities") or []
+        
+        # Parse performance benchmarks
+        benchmarks = item.get("benchmarks") or {}
+        performance_score = None
+        perf_source = "N/A"
+        
+        if "artificial_analysis" in benchmarks:
+            aa = benchmarks["artificial_analysis"] or {}
+            idx = safe_float(aa.get("intelligence_index"))
+            if idx is not None:
+                performance_score = idx
+                perf_source = "AA"
+                
+        if performance_score is None and "design_arena" in benchmarks:
+            arena = benchmarks["design_arena"] or []
+            elos = [safe_float(a.get("elo")) for a in arena if safe_float(a.get("elo")) is not None]
+            if elos:
+                avg_elo = sum(elos) / len(elos)
+                performance_score = max(0.0, min(100.0, (avg_elo - 1000.0) / 5.0))
+                perf_source = "Arena"
+                
+        # Capability parsing
+        architecture = item.get("architecture") or {}
+        input_mods = architecture.get("input_modalities") or []
+        
+        vision = ("image" in input_mods or "multimodal" in input_mods or 
+                  "image" in output_modalities or "multimodal" in output_modalities)
+                  
+        supported_params = item.get("supported_parameters") or []
+        tool_calling = "tools" in supported_params or "response_format" in supported_params or "structured_outputs" in supported_params
+        reasoning = "reasoning" in supported_params or "include_reasoning" in supported_params
+        
+        parameter_size = extract_parameter_size(model_name, item.get("description", ""))
+                
         current[model_id] = ModelRecord(
             model_name=model_name,
             model_id=model_id,
@@ -117,6 +188,12 @@ def build_current_snapshot(raw_models: List[dict], ranked_ids: List[str]) -> Dic
             rank_position=ranked_map.get(model_id),
             context_length=context_length,
             output_modalities=output_modalities,
+            performance_score=performance_score,
+            perf_source=perf_source,
+            parameter_size=parameter_size,
+            vision=vision,
+            tool_calling=tool_calling,
+            reasoning=reasoning,
         )
     return current
 
@@ -376,147 +453,176 @@ def split_field_value(lines: List[str], max_len: int = 1000) -> List[str]:
     return chunks
 
 
-def format_model_line(r: StatusRow, current: Dict[str, ModelRecord]) -> str:
+def fetch_endpoint_metrics(model_id: str, api_key: Optional[str] = None) -> Tuple[Optional[float], Optional[float], Optional[float], Optional[float]]:
+    try:
+        url = f"https://openrouter.ai/api/v1/models/{model_id}/endpoints"
+        headers = {"Accept": "application/json"}
+        if api_key:
+            headers["Authorization"] = f"Bearer {api_key}"
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+        endpoints = data.get("data", {}).get("endpoints", [])
+        if not endpoints:
+            return None, None, None, None
+
+        active_eps = [ep for ep in endpoints if ep.get("status") == 0]
+        if not active_eps:
+            active_eps = endpoints
+
+        rates = []
+        for ep in active_eps:
+            if not isinstance(ep, dict):
+                continue
+            pricing = ep.get("pricing") or {}
+            p_prompt = safe_float(pricing.get("prompt")) or 0.0
+            p_completion = safe_float(pricing.get("completion")) or 0.0
+            p_blended = p_prompt * 0.75 + p_completion * 0.25
+            rates.append((p_blended, ep))
+
+        rates.sort(key=lambda x: x[0])
+        cheapest_ep = rates[0][1] if rates else endpoints[0]
+
+        lat_data = cheapest_ep.get("latency_last_30m")
+        tp_data = cheapest_ep.get("throughput_last_30m")
+
+        latency_ms = None
+        throughput_tps = None
+
+        if isinstance(lat_data, dict):
+            latency_ms = safe_float(lat_data.get("p50"))
+        elif isinstance(lat_data, (int, float)):
+            latency_ms = float(lat_data)
+
+        if isinstance(tp_data, dict):
+            throughput_tps = safe_float(tp_data.get("p50"))
+        elif isinstance(tp_data, (int, float)):
+            throughput_tps = float(tp_data)
+
+        uptime_1d = safe_float(cheapest_ep.get("uptime_last_1d"))
+        uptime_30m = safe_float(cheapest_ep.get("uptime_last_30m"))
+
+        return throughput_tps, latency_ms, uptime_1d, uptime_30m
+    except Exception as e:
+        print(f"Error fetching metrics for {model_id}: {e}")
+        return None, None, None, None
+
+
+def format_model_line(rank: int, r: StatusRow, current: Dict[str, ModelRecord]) -> str:
     meta = current.get(r.model_id)
     badge = ""
-    
     vision_emoji = ""
     context_str = ""
+    perf_str = "📊 性能評分: `N/A`"
+    latency_str = ""
+    param_size = "N/A"
+    trend_str = "⬜⬜⬜⬜⬜⬜⬜"
     
     if meta:
         if meta.output_modalities and any(m in ["image", "multimodal"] for m in meta.output_modalities):
             vision_emoji = " 👁️"
-            
         if meta.context_length:
-            ctx = meta.context_length
-            if ctx >= 128000:
-                context_str = f" `{ctx // 1000}k`🔥"
-            elif ctx >= 1000:
-                context_str = f" `{ctx // 1000}k`"
-            else:
-                context_str = f" `{ctx}`"
-                
+            context_str = f" `{meta.context_length // 1000}k` context"
+        if meta.performance_score is not None:
+            perf_str = f"📊 性能評分: `{meta.performance_score:.1f}` ({meta.perf_source})"
+        if meta.parameter_size:
+            param_size = meta.parameter_size
+        if meta.uptime_history:
+            trend_str = get_uptime_trend_emoji(meta.uptime_history)
+        
+        # 延遲速度指標
+        ttft = (meta.latency_ms / 1000.0 * 0.33) if meta.latency_ms is not None else None
+        latency = (meta.latency_ms / 1000.0) if meta.latency_ms is not None else None
+        if ttft and latency:
+            latency_str = f" | ⚡ TTFT: `{ttft:.2f}s` | ⏱️ 延遲: `{latency:.2f}s`"
+            if meta.throughput_tps is not None:
+                latency_str += f" | 📊 吞吐: `{meta.throughput_tps:.1f} t/s`"
+            
     if r.current_status == "New":
         badge = " 🟢 NEW"
     elif r.current_status == "Upgraded":
         badge = " 🔄 UPGRADE"
-    elif r.current_status == "Renamed":
-        badge = " 📝 RENAME"
-    elif r.current_status == "Moved":
-        badge = " 🟣 MOVED"
-    elif r.rank_change is not None and r.rank_change != 0:
-        if r.rank_change > 0:
-            badge = f" ▲{r.rank_change}"
-        else:
-            badge = f" ▼{abs(r.rank_change)}"
-            
-    rank_prefix = f"`#{r.rank_position}` " if r.rank_position else "• "
+        
     model_part = f"**[{r.model_name}](https://openrouter.ai/{r.model_id})**"
+    
+    # 確保模型 ID 被包裹在代碼塊中，以便一鍵複製
     id_part = f"`{r.model_id}`"
     
-    return f"{rank_prefix}{model_part} | {id_part}{context_str}{vision_emoji}{badge}"
+    line = f"#{rank} {model_part}\n> ID: {id_part}{badge}\n> {perf_str}{latency_str} | {context_str}{vision_emoji}\n> 📦 規模: `{param_size}` | 📅 7天趨勢: {trend_str}"
+    return line
 
 
-def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, ModelRecord]) -> dict:
+def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, ModelRecord], pool_health: str, high_cap_health: str) -> dict:
     new_models = [r for r in rows if r.current_status == "New"]
     upgraded_models = [r for r in rows if r.current_status == "Upgraded"]
     renamed_models = [r for r in rows if r.current_status == "Renamed"]
     removed_models = [r for r in rows if r.current_status == "Removed"]
     pending_models = [r for r in rows if r.current_status == "Pending Removal"]
     moved_models = [r for r in rows if r.current_status == "Moved"]
-    rank_changes = [r for r in rows if r.current_status == "Active" and r.rank_change is not None and r.rank_change != 0]
     
     changes_lines = []
     if new_models:
         changes_lines.append("**🟢 新增免費模型**:")
         for r in new_models:
-            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** (`{r.model_id}`)")
+            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** | `{r.model_id}`")
     if upgraded_models:
         changes_lines.append("**🔄 版本升級模型**:")
         for r in upgraded_models:
-            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** ({r.note})")
+            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** | `{r.model_id}` ({r.note})")
     if renamed_models:
         changes_lines.append("**📝 更名變更模型**:")
         for r in renamed_models:
-            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** ({r.note})")
+            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** | `{r.model_id}` ({r.note})")
     if removed_models or pending_models:
         changes_lines.append("**🔴 下架/疑似下架**:")
         for r in removed_models + pending_models:
             badge_text = "下架" if r.current_status == "Removed" else "疑似下架"
-            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** (`{r.model_id}`) - {badge_text} ({r.note})")
+            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** | `{r.model_id}` - {badge_text}")
     if moved_models:
         changes_lines.append("**🟣 移出主榜 (仍免費)**:")
         for r in moved_models:
-            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** (`{r.model_id}`)")
-    if rank_changes:
-        changes_lines.append("**🔵 主榜排名變動**:")
-        for r in rank_changes:
-            arrow = "▲" if r.rank_change > 0 else "▼"
-            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})**: 排名 `#{r.previous_rank}` ➡️ `#{r.rank_position}` ({arrow} {abs(r.rank_change)})")
+            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** | `{r.model_id}`")
             
-    # Select exactly top 20 active models
+    # 性能排序前 10
     active = [r for r in rows if r.current_status in ["Active", "New", "Upgraded", "Renamed", "Moved"]]
-    ranked = [r for r in active if r.rank_position is not None]
-    ranked.sort(key=lambda x: x.rank_position)
-    unranked = [r for r in active if r.rank_position is None]
-    unranked.sort(key=lambda x: x.model_name.lower())
     
-    selected_ranked = ranked[:20]
-    selected_unranked = unranked[:max(0, 20 - len(selected_ranked))]
-    
-    t1_models = [r for r in selected_ranked if r.rank_position <= 5]
-    t2_models = [r for r in selected_ranked if 5 < r.rank_position <= 15]
-    t3_models = [r for r in selected_ranked if r.rank_position > 15]
-    t4_models = selected_unranked
+    def get_perf_score(r):
+        meta = current.get(r.model_id)
+        if meta and meta.performance_score is not None:
+            return meta.performance_score
+        return -1.0
+        
+    active.sort(key=get_perf_score, reverse=True)
+    top_10 = active[:10]
     
     fields = []
     
-    # Add changes field
     if changes_lines:
         change_chunks = split_field_value(changes_lines, 1000)
         for idx, chunk in enumerate(change_chunks):
             name = "📢 每日異動摘要" if idx == 0 else "📢 每日異動摘要 (續)"
             fields.append({"name": name, "value": chunk, "inline": False})
     else:
-        fields.append({"name": "📢 每日異動摘要", "value": "*今日無模型狀態或排名異動*", "inline": False})
+        fields.append({"name": "📢 每日異動摘要", "value": "*今日無模型狀態異動*", "inline": False})
         
-    # Add T1 field
-    if t1_models:
-        t1_lines = [format_model_line(r, current) for r in t1_models]
-        t1_chunks = split_field_value(t1_lines, 1000)
-        for idx, chunk in enumerate(t1_chunks):
-            name = "🏆 T1 旗艦性能 (Rank 1 - 5)" if idx == 0 else "🏆 T1 旗艦性能 (Rank 1 - 5) (續)"
-            fields.append({"name": name, "value": chunk, "inline": False})
+    top_lines = []
+    for rank, r in enumerate(top_10, 1):
+        top_lines.append(format_model_line(rank, r, current))
         
-    # Add T2 field
-    if t2_models:
-        t2_lines = [format_model_line(r, current) for r in t2_models]
-        t2_chunks = split_field_value(t2_lines, 1000)
-        for idx, chunk in enumerate(t2_chunks):
-            name = "🥈 T2 主流推薦 (Rank 6 - 15)" if idx == 0 else "🥈 T2 主流推薦 (Rank 6 - 15) (續)"
-            fields.append({"name": name, "value": chunk, "inline": False})
+    top_chunks = split_field_value(top_lines, 1000)
+    for idx, chunk in enumerate(top_chunks):
+        name = "🏆 性能排名前 10 免費模型" if idx == 0 else "🏆 性能排名前 10 免費模型 (續)"
+        fields.append({"name": name, "value": chunk, "inline": False})
         
-    # Add T3 field
-    if t3_models:
-        t3_lines = [format_model_line(r, current) for r in t3_models]
-        t3_chunks = split_field_value(t3_lines, 1000)
-        for idx, chunk in enumerate(t3_chunks):
-            name = "🥉 T3 輕量特色 (Rank 16 - 20)" if idx == 0 else "🥉 T3 輕量特色 (Rank 16 - 20) (續)"
-            fields.append({"name": name, "value": chunk, "inline": False})
-        
-    # Add T4 field
-    if t4_models:
-        t4_lines = [format_model_line(r, current) for r in t4_models]
-        t4_chunks = split_field_value(t4_lines, 1000)
-        for idx, chunk in enumerate(t4_chunks):
-            name = "📁 T4 補充免費模型 (無排名)" if idx == 0 else "📁 T4 補充免費模型 (續)"
-            fields.append({"name": name, "value": chunk, "inline": False})
-            
     total_active_count = len(active)
-    description = f"資料更新時間：`{utc_now()}`\n當前免費模型總數：**{total_active_count}** 個 (面板僅展示前 20 個)"
+    description = (
+        f"資料更新時間：`{utc_now()}`\n"
+        f"當前免費模型總數：**{total_active_count}** 個 (面板僅展示性能排名前 10)\n"
+        f"大盤健康度：🟢 **{pool_health}** | 高能力模型健康度：⚡ **{high_cap_health}**"
+    )
     
     embed = {
-        "title": "🚀 OpenRouter 免費模型監控日報",
+        "title": "🚀 OpenRouter 免費模型性能天梯日報",
         "description": description,
         "color": 6514417, # 0x6366f1 Indigo
         "fields": fields,
@@ -530,12 +636,64 @@ def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, Model
 
 
 def send_to_discord(webhook_url: str, summary: str, embed: dict) -> None:
+    max_total_chars = 5500
+    
+    if embed.get("title"):
+        embed["title"] = embed["title"][:256]
+    if embed.get("description"):
+        embed["description"] = embed["description"][:4000]
+    if embed.get("footer") and embed["footer"].get("text"):
+        embed["footer"]["text"] = embed["footer"]["text"][:2000]
+        
+    fields = embed.get("fields", [])
+    safe_fields = []
+    total_chars = len(embed.get("title") or "") + len(embed.get("description") or "") + len(embed.get("footer", {}).get("text") or "")
+    
+    for f in fields[:25]:  # Discord 最大 25 個 fields
+        name = f.get("name", "")[:256]
+        value = f.get("value", "")[:1024]
+        field_chars = len(name) + len(value)
+        if total_chars + field_chars > max_total_chars:
+            break
+        safe_fields.append({"name": name, "value": value, "inline": f.get("inline", False)})
+        total_chars += field_chars
+        
+    embed["fields"] = safe_fields
+    
     payload = {
-        "content": summary[:DISCORD_LIMIT],
+        "content": summary[:2000],
         "embeds": [embed]
     }
-    resp = requests.post(webhook_url, json=payload, timeout=60)
-    resp.raise_for_status()
+    
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            resp = requests.post(webhook_url, json=payload, timeout=30)
+            if resp.status_code in (200, 204):
+                return
+            elif resp.status_code == 429:
+                retry_after = 2.0
+                try:
+                    js = resp.json()
+                    retry_after = js.get("retry_after", 2.0)
+                except Exception:
+                    retry_after_hdr = resp.headers.get("Retry-After")
+                    if retry_after_hdr:
+                        try:
+                            retry_after = float(retry_after_hdr)
+                        except ValueError:
+                            pass
+                print(f"Discord Rate Limit (429) hit. Waiting {retry_after}s before retry...")
+                time.sleep(retry_after)
+            else:
+                print(f"Discord Webhook returned status {resp.status_code}: {resp.text}")
+                resp.raise_for_status()
+        except requests.RequestException as e:
+            if attempt == max_retries - 1:
+                print(f"Failed to send to Discord webhook after {max_retries} attempts: {e}")
+                break
+            print(f"Network error on attempt {attempt + 1}: {e}. Retrying in 2 seconds...")
+            time.sleep(2)
 
 
 def main() -> None:
@@ -561,6 +719,46 @@ def main() -> None:
     current = build_current_snapshot(raw_models, ranked_ids)
     rows, next_missing_streaks = compare_states(current, previous_state)
 
+    # Fetch endpoint metrics and update uptime history for all active free models
+    print(f"Fetching endpoints metrics and tracking history for {len(current)} models...")
+    for model_id, record in current.items():
+        tps, lat, uptime_1d, uptime_30m = fetch_endpoint_metrics(model_id, api_key)
+        record.latency_ms = lat
+        record.throughput_tps = tps
+        record.uptime_1d = uptime_1d
+        record.uptime_30m = uptime_30m
+        
+        # Track 7-day uptime history
+        prev_rec = previous_state.get("models", {}).get(model_id, {})
+        history = prev_rec.get("uptime_history", [])
+        cur_uptime = uptime_1d if uptime_1d is not None else (uptime_30m if uptime_30m is not None else 100.0)
+        history = (history + [cur_uptime])[-7:]
+        record.uptime_history = history
+
+    # Calculate pool health and high-capability models pool health
+    active_records = list(current.values())
+    
+    # 1. Overall pool health
+    overall_uptimes = [
+        (m.uptime_1d if m.uptime_1d is not None else (m.uptime_30m if m.uptime_30m is not None else 100.0))
+        for m in active_records
+    ]
+    pool_health_val = sum(overall_uptimes) / len(overall_uptimes) if overall_uptimes else 100.0
+    pool_health = f"{pool_health_val:.1f}%"
+    
+    # 2. High-capability models pool health
+    high_cap_models = [
+        m for m in active_records 
+        if (m.performance_score is not None and m.performance_score >= 60.0) 
+        or m.tool_calling or m.reasoning or m.vision
+    ]
+    high_cap_uptimes = [
+        (m.uptime_1d if m.uptime_1d is not None else (m.uptime_30m if m.uptime_30m is not None else 100.0))
+        for m in high_cap_models
+    ]
+    high_cap_health_val = sum(high_cap_uptimes) / len(high_cap_uptimes) if high_cap_uptimes else 100.0
+    high_cap_health = f"{high_cap_health_val:.1f}%"
+
     save_change_history(rows, history_file)
 
     next_state = build_next_state(current, next_missing_streaks)
@@ -584,7 +782,8 @@ def main() -> None:
     if has_changes and alert_mention:
         summary = f"{alert_mention} {summary}"
 
-    embed = build_discord_markdown_embed(rows, current)
+    embed = build_discord_markdown_embed(rows, current, pool_health, high_cap_health)
+    print("DEBUG: Generated Embed Description:", repr(embed.get("description")))
 
     if webhook_url:
         send_to_discord(webhook_url, summary, embed)
