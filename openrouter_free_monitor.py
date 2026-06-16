@@ -583,6 +583,13 @@ def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, Model
         for r in moved_models:
             changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** | `{r.model_id}`")
             
+    rank_changes = [r for r in rows if r.current_status == "Active" and r.rank_change is not None and r.rank_change != 0]
+    if rank_changes:
+        changes_lines.append("**🔵 主榜排名變動**:")
+        for r in rank_changes:
+            arrow = "▲" if r.rank_change > 0 else "▼"
+            changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** | `{r.model_id}`: 排名 `#{r.previous_rank}` ➡️ `#{r.rank_position}` ({arrow} {abs(r.rank_change)})")
+            
     # 性能排序前 10
     active = [r for r in rows if r.current_status in ["Active", "New", "Upgraded", "Renamed", "Moved"]]
     
