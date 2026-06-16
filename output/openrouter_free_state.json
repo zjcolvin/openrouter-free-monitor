@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-15 06:32:44 UTC",
+  "last_run": "2026-06-16 06:39:02 UTC",
   "models": {
     "nex-agi/nex-n2-pro:free": {
       "model_name": "Nex AGI: Nex-N2-Pro (free)",
@@ -7,7 +7,7 @@
       "provider": "nex-agi",
       "is_free": true,
       "in_free_ranking": true,
-      "rank_position": 5,
+      "rank_position": 4,
       "context_length": 262144,
       "output_modalities": []
     },
@@ -67,7 +67,7 @@
       "provider": "poolside",
       "is_free": true,
       "in_free_ranking": true,
-      "rank_position": 4,
+      "rank_position": 5,
       "context_length": 262144,
       "output_modalities": []
     },
@@ -77,7 +77,7 @@
       "provider": "google",
       "is_free": true,
       "in_free_ranking": true,
-      "rank_position": 16,
+      "rank_position": 17,
       "context_length": 262144,
       "output_modalities": []
     },
