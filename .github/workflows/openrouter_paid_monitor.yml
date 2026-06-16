@@ -2,8 +2,8 @@ name: OpenRouter Paid Models Value Monitor
 
 on:
   schedule:
-    # 每天 UTC 時間 01:30 (台北時間早上 9:30) 自動執行一次
-    - cron: '30 1 * * *'
+    # 每天台北時間早上 03:30 (UTC 時間 19:30) 自動執行一次
+    - cron: '30 19 * * *'
   workflow_dispatch: # 允許在 GitHub 頁面上點擊按鈕手動觸發執行
 
 jobs:
