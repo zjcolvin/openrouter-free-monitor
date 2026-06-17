@@ -12,5 +12,12 @@
     "model_name": "DeepSeek: DeepSeek V4 Flash",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.12 to $0.11 (省 8%)"
+  },
+  {
+    "timestamp": "2026-06-17 21:26:33 UTC",
+    "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "model_name": "NVIDIA: Nemotron 3 Ultra",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.00 to $0.93 (省 7%)"
   }
 ]
