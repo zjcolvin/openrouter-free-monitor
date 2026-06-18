@@ -19,5 +19,12 @@
     "model_name": "NVIDIA: Nemotron 3 Ultra",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.00 to $0.93 (省 7%)"
+  },
+  {
+    "timestamp": "2026-06-18 21:32:27 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $1.95 (省 9%)"
   }
 ]
