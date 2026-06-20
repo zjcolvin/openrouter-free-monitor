@@ -40,5 +40,19 @@
     "model_name": "MoonshotAI: Kimi K2.7 Code",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.43 to $1.36 (省 5%)"
+  },
+  {
+    "timestamp": "2026-06-20 20:46:14 UTC",
+    "model_id": "moonshotai/kimi-k2.7-code",
+    "model_name": "MoonshotAI: Kimi K2.7 Code",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.36 to $1.23 (省 10%)"
+  },
+  {
+    "timestamp": "2026-06-20 20:46:14 UTC",
+    "model_id": "tencent/hy3-preview",
+    "model_name": "Tencent: Hy3 preview",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.10 (省 13%)"
   }
 ]
