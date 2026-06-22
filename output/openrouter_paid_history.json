@@ -61,5 +61,26 @@
     "model_name": "Z.ai: GLM 5.2",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.92 to $1.75 (省 9%)"
+  },
+  {
+    "timestamp": "2026-06-22 21:37:02 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.75 to $1.50 (省 14%)"
+  },
+  {
+    "timestamp": "2026-06-22 21:37:02 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.37 to $1.35 (省 2%)"
+  },
+  {
+    "timestamp": "2026-06-22 21:37:02 UTC",
+    "model_id": "moonshotai/kimi-k2.6",
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.37 to $1.35 (省 2%)"
   }
 ]
