@@ -508,8 +508,10 @@ def fetch_endpoint_metrics(model_id: str, api_key: Optional[str] = None) -> Tupl
         return None, None, None, None
 
 
-def format_model_line(rank: int, r: StatusRow, current: Dict[str, ModelRecord]) -> str:
+def format_model_line(rank: int, r: StatusRow, current: Dict[str, ModelRecord], analytics_summary: dict) -> str:
     meta = current.get(r.model_id)
+    p_meta = analytics_summary.get("models", {}).get(r.model_id, {}) if analytics_summary else {}
+    
     badge = ""
     vision_emoji = ""
     context_str = ""
@@ -523,20 +525,35 @@ def format_model_line(rank: int, r: StatusRow, current: Dict[str, ModelRecord]) 
             vision_emoji = " 👁️"
         if meta.context_length:
             context_str = f" `{meta.context_length // 1000}k` context"
-        if meta.performance_score is not None:
+        
+        # Use final_score from active probe if available, otherwise fallback to performance_score
+        score = p_meta.get("final_score")
+        if score is not None:
+            perf_str = f"📊 性能評分: `{score:.1f}`"
+        elif meta.performance_score is not None:
             perf_str = f"📊 性能評分: `{meta.performance_score:.1f}` ({meta.perf_source})"
+            
         if meta.parameter_size:
             param_size = meta.parameter_size
         if meta.uptime_history:
             trend_str = get_uptime_trend_emoji(meta.uptime_history)
         
-        # 延遲速度指標
-        ttft = (meta.latency_ms / 1000.0 * 0.33) if meta.latency_ms is not None else None
-        latency = (meta.latency_ms / 1000.0) if meta.latency_ms is not None else None
-        if ttft and latency:
-            latency_str = f" | ⚡ TTFT: `{ttft:.2f}s` | ⏱️ 延遲: `{latency:.2f}s`"
-            if meta.throughput_tps is not None:
-                latency_str += f" | 📊 吞吐: `{meta.throughput_tps:.1f} t/s`"
+        # Active probe metrics if available
+        succ_rate = p_meta.get("success_rate_24h")
+        p50_ttft = p_meta.get("p50_ttft_sec")
+        p95_lat = p_meta.get("p95_latency_sec")
+        
+        if p50_ttft is not None and p95_lat is not None:
+            latency_str = f" | ⚡ TTFT: `{p50_ttft:.2f}s` | ⏱️ 延遲: `{p95_lat:.2f}s`"
+            if succ_rate is not None:
+                latency_str += f" | 🟢 穩定: `{succ_rate * 100.0:.1f}%`"
+        else:
+            ttft = (meta.latency_ms / 1000.0 * 0.33) if meta.latency_ms is not None else None
+            latency = (meta.latency_ms / 1000.0) if meta.latency_ms is not None else None
+            if ttft and latency:
+                latency_str = f" | ⚡ TTFT: `{ttft:.2f}s` | ⏱️ 延遲: `{latency:.2f}s`"
+                if meta.throughput_tps is not None:
+                    latency_str += f" | 📊 吞吐: `{meta.throughput_tps:.1f} t/s`"
             
     if r.current_status == "New":
         badge = " 🟢 NEW"
@@ -544,15 +561,22 @@ def format_model_line(rank: int, r: StatusRow, current: Dict[str, ModelRecord]) 
         badge = " 🔄 UPGRADE"
         
     model_part = f"**[{r.model_name}](https://openrouter.ai/{r.model_id})**"
-    
-    # 確保模型 ID 被包裹在代碼塊中，以便一鍵複製
     id_part = f"`{r.model_id}`"
     
-    line = f"#{rank} {model_part}\n> ID: {id_part}{badge}\n> {perf_str}{latency_str} | {context_str}{vision_emoji}\n> 📦 規模: `{param_size}` | 📅 7天趨勢: {trend_str}"
+    peak_hours = p_meta.get("peak_risk_hours_utc", [])
+    peak_str = ""
+    if peak_hours:
+        peak_str = f" | ⚠️ 擁堵時段: `UTC {','.join(map(str, peak_hours))}`"
+        
+    line = f"#{rank} {model_part}\n> ID: {id_part}{badge}\n> {perf_str}{latency_str}{peak_str} | {context_str}{vision_emoji}\n> 📦 規模: `{param_size}` | 📅 7天趨勢: {trend_str}"
     return line
 
 
-def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, ModelRecord], pool_health: str, high_cap_health: str) -> dict:
+def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, ModelRecord], pool_health: str, high_cap_health: str, analytics_summary: dict = None) -> dict:
+    if analytics_summary:
+        pool_health = analytics_summary.get("pool_health", pool_health)
+        high_cap_health = analytics_summary.get("high_cap_health", high_cap_health)
+
     new_models = [r for r in rows if r.current_status == "New"]
     upgraded_models = [r for r in rows if r.current_status == "Upgraded"]
     renamed_models = [r for r in rows if r.current_status == "Renamed"]
@@ -590,15 +614,19 @@ def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, Model
             arrow = "▲" if r.rank_change > 0 else "▼"
             changes_lines.append(f"> • **[{r.model_name}](https://openrouter.ai/{r.model_id})** | `{r.model_id}`: 排名 `#{r.previous_rank}` ➡️ `#{r.rank_position}` ({arrow} {abs(r.rank_change)})")
             
-    # 採用官方的性能排名排序前 10
+    # 排序前 10
     active = [r for r in rows if r.current_status in ["Active", "New", "Upgraded", "Renamed", "Moved"]]
     
-    def get_official_rank(r):
+    def get_sort_key(r):
+        if analytics_summary:
+            m_analytics = analytics_summary.get("models", {}).get(r.model_id, {})
+            if "final_score" in m_analytics:
+                return -m_analytics["final_score"]
         if r.rank_position is not None:
             return r.rank_position
         return 999999
         
-    active.sort(key=get_official_rank)
+    active.sort(key=get_sort_key)
     top_10 = active[:10]
     
     fields = []
@@ -611,19 +639,28 @@ def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, Model
     else:
         fields.append({"name": "📢 每日異動摘要", "value": "*今日無模型狀態異動*", "inline": False})
         
+    warnings_lines = []
+    if analytics_summary:
+        for m_id, m_data in analytics_summary.get("models", {}).items():
+            rate_limit_prob = m_data.get("rate_limit_prob_24h", 0.0)
+            if rate_limit_prob >= 0.15:
+                warnings_lines.append(f"> • **[{m_data['display_name']}](https://openrouter.ai/{m_id})** | 限流概率: `{rate_limit_prob * 100.0:.1f}%` (請避開尖峰時段)")
+    if warnings_lines:
+        fields.append({"name": "⚠️ 擁堵與限流警示", "value": "\n".join(warnings_lines), "inline": False})
+
     top_lines = []
     for rank, r in enumerate(top_10, 1):
-        top_lines.append(format_model_line(rank, r, current))
+        top_lines.append(format_model_line(rank, r, current, analytics_summary))
         
     top_chunks = split_field_value(top_lines, 1000)
     for idx, chunk in enumerate(top_chunks):
-        name = "🏆 性能排名前 10 免費模型" if idx == 0 else "🏆 性能排名前 10 免費模型 (續)"
+        name = "🏆 性能評分排名前 10 免費模型" if idx == 0 else "🏆 性能評分排名前 10 免費模型 (續)"
         fields.append({"name": name, "value": chunk, "inline": False})
         
     total_active_count = len(active)
     description = (
         f"資料更新時間：`{utc_now()}`\n"
-        f"當前免費模型總數：**{total_active_count}** 個 (面板僅展示性能排名前 10)\n"
+        f"當前免費模型總數：**{total_active_count}** 個 (天梯榜展示性能分數前 10)\n"
         f"大盤健康度：🟢 **{pool_health}** | 高能力模型健康度：⚡ **{high_cap_health}**"
     )
     
@@ -633,7 +670,7 @@ def build_discord_markdown_embed(rows: List[StatusRow], current: Dict[str, Model
         "color": 6514417, # 0x6366f1 Indigo
         "fields": fields,
         "footer": {
-            "text": "資料來源: OpenRouter API & Free Collection"
+            "text": "資料來源: OpenRouter API & Free Active Probes"
         },
         "timestamp": datetime.now(timezone.utc).isoformat()
     }
@@ -788,7 +825,16 @@ def main() -> None:
     if has_changes and alert_mention:
         summary = f"{alert_mention} {summary}"
 
-    embed = build_discord_markdown_embed(rows, current, pool_health, high_cap_health)
+    analytics_summary = {}
+    analytics_file = Path("output/openrouter_analytics_summary.json")
+    if analytics_file.exists():
+        try:
+            analytics_summary = json.loads(analytics_file.read_text(encoding="utf-8"))
+            print(f"Loaded analytics summary from {analytics_file}")
+        except Exception as e:
+            print(f"Error loading analytics summary: {e}")
+
+    embed = build_discord_markdown_embed(rows, current, pool_health, high_cap_health, analytics_summary)
     print("DEBUG: Generated Embed Description:", repr(embed.get("description")))
 
     if webhook_url:
