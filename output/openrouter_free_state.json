@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-23 08:03:08 UTC",
+  "last_run": "2026-06-23 20:59:19 UTC",
   "models": {
     "cohere/north-mini-code:free": {
       "model_name": "Cohere: North Mini Code (free)",
@@ -12,15 +12,16 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 630.0,
-      "throughput_tps": 91.0,
+      "latency_ms": 662.5,
+      "throughput_tps": 96.0,
       "parameter_size": "30B",
       "uptime_history": [
         96.94527535372013,
-        96.94675033764865
+        96.94675033764865,
+        96.65841228383579
       ],
-      "uptime_1d": 96.94675033764865,
-      "uptime_30m": 96.93778037838892,
+      "uptime_1d": 96.65841228383579,
+      "uptime_30m": 95.49374130737135,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -36,18 +37,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 375.5,
-      "throughput_tps": 70.0,
+      "latency_ms": 265.5,
+      "throughput_tps": 73.0,
       "parameter_size": "4B",
       "uptime_history": [
         99.86074002105093,
         99.85901798736023,
         99.83953990849008,
         99.89763066925804,
-        99.89911428274706
+        99.89911428274706,
+        99.89195842450765
       ],
-      "uptime_1d": 99.89911428274706,
-      "uptime_30m": 99.92313604919293,
+      "uptime_1d": 99.89195842450765,
+      "uptime_30m": 99.51845906902086,
       "vision": true,
       "tool_calling": false,
       "reasoning": true
@@ -63,18 +65,19 @@
       "output_modalities": [],
       "performance_score": 37.8,
       "perf_source": "AA",
-      "latency_ms": 7368.0,
-      "throughput_tps": 8.0,
+      "latency_ms": 7842.0,
+      "throughput_tps": 7.0,
       "parameter_size": "55B",
       "uptime_history": [
         96.65936784471018,
         96.66699452228914,
         96.62478549453982,
         95.83692926572095,
-        95.83692926572095
+        95.83692926572095,
+        97.72948089976481
       ],
-      "uptime_1d": 95.83692926572095,
-      "uptime_30m": 98.47540257054219,
+      "uptime_1d": 97.72948089976481,
+      "uptime_30m": 99.40409264672813,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -90,18 +93,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 3915.0,
-      "throughput_tps": 5.0,
+      "latency_ms": 3600.0,
+      "throughput_tps": 7.0,
       "parameter_size": "N/A",
       "uptime_history": [
         99.96985644935697,
         99.96908246705772,
         99.96778563631742,
         99.94590928582662,
-        99.94590928582662
+        99.94590928582662,
+        99.96111447982152
       ],
-      "uptime_1d": 99.94590928582662,
-      "uptime_30m": 99.97158732163152,
+      "uptime_1d": 99.96111447982152,
+      "uptime_30m": 99.97910054957813,
       "vision": false,
       "tool_calling": true,
       "reasoning": false
@@ -117,18 +121,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 2181.5,
-      "throughput_tps": 40.5,
+      "latency_ms": 357.0,
+      "throughput_tps": 160.0,
       "parameter_size": "30B",
       "uptime_history": [
         98.41157988647677,
         98.45223637632103,
         98.28518481749893,
         97.13468029311989,
-        97.13468029311989
+        97.13468029311989,
+        97.09090086284921
       ],
-      "uptime_1d": 97.13468029311989,
-      "uptime_30m": 93.84487993375656,
+      "uptime_1d": 97.09090086284921,
+      "uptime_30m": 99.63820549927641,
       "vision": true,
       "tool_calling": true,
       "reasoning": true
@@ -144,18 +149,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 570.0,
-      "throughput_tps": 40.0,
+      "latency_ms": 541.0,
+      "throughput_tps": 66.0,
       "parameter_size": "N/A",
       "uptime_history": [
         99.9756664947099,
         99.97633473704003,
         99.98315637850521,
         99.99329008015773,
-        99.99329008015773
+        99.99329008015773,
+        99.99104385124079
       ],
-      "uptime_1d": 99.99329008015773,
-      "uptime_30m": 99.98892702912191,
+      "uptime_1d": 99.99104385124079,
+      "uptime_30m": 100.0,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -171,18 +177,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 3473.5,
-      "throughput_tps": 5.0,
+      "latency_ms": 3782.0,
+      "throughput_tps": 6.0,
       "parameter_size": "N/A",
       "uptime_history": [
         99.99448047006324,
         99.99456334001624,
         99.99495865254865,
         99.87762962018746,
-        99.8775111355583
+        99.8775111355583,
+        99.82207528360695
       ],
-      "uptime_1d": 99.8775111355583,
-      "uptime_30m": 99.9689068538178,
+      "uptime_1d": 99.82207528360695,
+      "uptime_30m": 99.99485358447842,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -206,6 +213,7 @@
         99.0443686006826,
         99.05104109084209,
         100.0,
+        100.0,
         100.0
       ],
       "uptime_1d": null,
@@ -225,18 +233,19 @@
       "output_modalities": [],
       "performance_score": 29.4,
       "perf_source": "AA",
-      "latency_ms": 1116.5,
-      "throughput_tps": 33.0,
+      "latency_ms": 1127.0,
+      "throughput_tps": 38.0,
       "parameter_size": "31B",
       "uptime_history": [
         98.48519275922139,
         98.6098380690498,
         99.10936674465998,
         99.85163705027482,
-        99.85163705027482
+        99.85163705027482,
+        99.78082545550927
       ],
-      "uptime_1d": 99.85163705027482,
-      "uptime_30m": 99.85940246045695,
+      "uptime_1d": 99.78082545550927,
+      "uptime_30m": 99.55131800336513,
       "vision": true,
       "tool_calling": true,
       "reasoning": true
@@ -252,12 +261,13 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 6985.5,
-      "throughput_tps": 3.5,
+      "latency_ms": 9267.0,
+      "throughput_tps": 10.0,
       "parameter_size": "N/A",
       "uptime_history": [
         99.875,
         99.87261146496816,
+        100.0,
         100.0,
         100.0,
         100.0
@@ -279,17 +289,18 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 3380.0,
-      "throughput_tps": 14.0,
+      "latency_ms": 2420.0,
+      "throughput_tps": 1.0,
       "parameter_size": "N/A",
       "uptime_history": [
         99.79919678714859,
         99.79959919839679,
         100.0,
         100.0,
-        99.8158379373849
+        99.8158379373849,
+        99.63031423290202
       ],
-      "uptime_1d": 99.8158379373849,
+      "uptime_1d": 99.63031423290202,
       "uptime_30m": null,
       "vision": true,
       "tool_calling": true,
@@ -306,18 +317,19 @@
       "output_modalities": [],
       "performance_score": 25.4,
       "perf_source": "AA",
-      "latency_ms": 1455.5,
-      "throughput_tps": 53.0,
+      "latency_ms": 1431.0,
+      "throughput_tps": 68.0,
       "parameter_size": "120B",
       "uptime_history": [
         99.89645695854658,
         99.8962836510524,
         99.900112259755,
         99.74776804629903,
-        99.74776804629903
+        99.74776804629903,
+        99.70170975398302
       ],
-      "uptime_1d": 99.74776804629903,
-      "uptime_30m": 99.82802647350044,
+      "uptime_1d": 99.70170975398302,
+      "uptime_30m": 99.90240728692258,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -341,6 +353,7 @@
         100.0,
         100.0,
         100.0,
+        100.0,
         100.0
       ],
       "uptime_1d": null,
@@ -360,18 +373,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 452.0,
-      "throughput_tps": 71.0,
+      "latency_ms": 545.0,
+      "throughput_tps": 94.0,
       "parameter_size": "1.2B",
       "uptime_history": [
         89.77876261826879,
         89.7816378916277,
         90.01612017501904,
         91.70726004442538,
-        91.70726004442538
+        91.70726004442538,
+        91.29268981089473
       ],
-      "uptime_1d": 91.70726004442538,
-      "uptime_30m": 100.0,
+      "uptime_1d": 91.29268981089473,
+      "uptime_30m": 99.079754601227,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -387,18 +401,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 316.5,
-      "throughput_tps": 101.0,
+      "latency_ms": 308.0,
+      "throughput_tps": 107.0,
       "parameter_size": "1.2B",
       "uptime_history": [
         99.9723014707919,
         99.9736261295651,
         99.98166867438329,
         99.91157369824887,
-        99.91157369824887
+        99.91157369824887,
+        99.95600465499135
       ],
-      "uptime_1d": 99.91157369824887,
-      "uptime_30m": 100.0,
+      "uptime_1d": 99.95600465499135,
+      "uptime_30m": 99.68553459119497,
       "vision": false,
       "tool_calling": true,
       "reasoning": false
@@ -414,18 +429,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 508.0,
-      "throughput_tps": 153.0,
+      "latency_ms": 507.5,
+      "throughput_tps": 168.0,
       "parameter_size": "30B",
       "uptime_history": [
         98.31929394262279,
         98.31541838874155,
         98.24679029363139,
         99.79962392101594,
-        99.80050061643068
+        99.80050061643068,
+        99.71263752347092
       ],
-      "uptime_1d": 99.80050061643068,
-      "uptime_30m": 99.9234068627451,
+      "uptime_1d": 99.71263752347092,
+      "uptime_30m": 99.658203125,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -441,18 +457,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 1751.5,
-      "throughput_tps": 24.0,
+      "latency_ms": 1557.0,
+      "throughput_tps": 25.0,
       "parameter_size": "12B",
       "uptime_history": [
         92.36295921584153,
         92.37963612963614,
         92.49258781010367,
         84.46334886380319,
-        84.45529409947005
+        84.45529409947005,
+        84.49793411925249
       ],
-      "uptime_1d": 84.45529409947005,
-      "uptime_30m": 85.89490320031608,
+      "uptime_1d": 84.49793411925249,
+      "uptime_30m": 87.05957719410634,
       "vision": true,
       "tool_calling": true,
       "reasoning": true
@@ -476,10 +493,11 @@
         74.51707485339773,
         72.82376172453513,
         62.368913857677896,
-        62.368913857677896
+        62.368913857677896,
+        63.99884704073789
       ],
-      "uptime_1d": 62.368913857677896,
-      "uptime_30m": 0.0,
+      "uptime_1d": 63.99884704073789,
+      "uptime_30m": null,
       "vision": false,
       "tool_calling": true,
       "reasoning": false
@@ -495,18 +513,19 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 950.0,
-      "throughput_tps": 41.0,
+      "latency_ms": 799.5,
+      "throughput_tps": 47.0,
       "parameter_size": "9B",
       "uptime_history": [
         94.2810494398423,
         94.2688357583658,
         94.57015318906167,
         96.8550361535222,
-        96.85531896662525
+        96.85531896662525,
+        96.62103548230117
       ],
-      "uptime_1d": 96.85531896662525,
-      "uptime_30m": 99.89300998573466,
+      "uptime_1d": 96.62103548230117,
+      "uptime_30m": 98.39249832551909,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -522,18 +541,19 @@
       "output_modalities": [],
       "performance_score": 23.8,
       "perf_source": "AA",
-      "latency_ms": 890.0,
-      "throughput_tps": 21.0,
+      "latency_ms": 850.0,
+      "throughput_tps": 23.0,
       "parameter_size": "120B",
       "uptime_history": [
         99.91788278412074,
         99.91852634116555,
         99.92469851667913,
         99.95891907313043,
-        99.95880692380993
+        99.95880692380993,
+        99.94766581574883
       ],
-      "uptime_1d": 99.95880692380993,
-      "uptime_30m": 99.95452872269017,
+      "uptime_1d": 99.94766581574883,
+      "uptime_30m": 99.73421372553693,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -549,18 +569,19 @@
       "output_modalities": [],
       "performance_score": 14.9,
       "perf_source": "AA",
-      "latency_ms": 1015.0,
-      "throughput_tps": 64.0,
+      "latency_ms": 801.0,
+      "throughput_tps": 67.0,
       "parameter_size": "20B",
       "uptime_history": [
         99.83741424322207,
         99.83935967586076,
         99.85587639847068,
         88.5292681438076,
-        88.5292681438076
+        88.5292681438076,
+        95.04514355337561
       ],
-      "uptime_1d": 88.5292681438076,
-      "uptime_30m": 96.24597783339293,
+      "uptime_1d": 95.04514355337561,
+      "uptime_30m": 98.8519885198852,
       "vision": false,
       "tool_calling": true,
       "reasoning": true
@@ -584,10 +605,11 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ],
       "uptime_1d": 0.0,
-      "uptime_30m": 0.0,
+      "uptime_30m": null,
       "vision": false,
       "tool_calling": true,
       "reasoning": false
@@ -603,17 +625,18 @@
       "output_modalities": [],
       "performance_score": null,
       "perf_source": "N/A",
-      "latency_ms": 422.0,
-      "throughput_tps": 73.0,
+      "latency_ms": 424.0,
+      "throughput_tps": 71.0,
       "parameter_size": "24B",
       "uptime_history": [
         70.52303056392596,
         70.78967268013395,
         69.54879328436516,
         57.44296945482665,
-        57.44296945482665
+        57.44296945482665,
+        59.39498933901919
       ],
-      "uptime_1d": 57.44296945482665,
+      "uptime_1d": 59.39498933901919,
       "uptime_30m": null,
       "vision": false,
       "tool_calling": true,
@@ -638,10 +661,11 @@
         79.48259254162653,
         78.38486140724946,
         74.92977528089888,
-        74.59973432147102
+        74.59973432147102,
+        75.84589138470287
       ],
-      "uptime_1d": 74.59973432147102,
-      "uptime_30m": 0.0,
+      "uptime_1d": 75.84589138470287,
+      "uptime_30m": null,
       "vision": false,
       "tool_calling": true,
       "reasoning": false
@@ -665,10 +689,11 @@
         71.26828731712683,
         68.47450528740447,
         56.75083741303788,
-        56.76546391752577
+        56.76546391752577,
+        58.96131709275867
       ],
-      "uptime_1d": 56.76546391752577,
-      "uptime_30m": 0.0,
+      "uptime_1d": 58.96131709275867,
+      "uptime_30m": null,
       "vision": false,
       "tool_calling": false,
       "reasoning": false
@@ -692,10 +717,11 @@
         66.44052464947987,
         66.48859209794101,
         53.968466060929984,
-        53.968466060929984
+        53.968466060929984,
+        55.049747853346055
       ],
-      "uptime_1d": 53.968466060929984,
-      "uptime_30m": 0.0,
+      "uptime_1d": 55.049747853346055,
+      "uptime_30m": null,
       "vision": false,
       "tool_calling": false,
       "reasoning": false
