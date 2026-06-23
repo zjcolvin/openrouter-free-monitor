@@ -43,4 +43,5 @@ jobs:
         [ -f output/openrouter_paid_state.json ] && git add output/openrouter_paid_state.json || true
         [ -f output/openrouter_paid_history.json ] && git add output/openrouter_paid_history.json || true
         # 如果檔案有變更則提交並推送
-        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update paid state & history logs [skip ci]" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update paid state & history logs [skip ci]" && git pull --rebase origin main && git push)
+
