@@ -30,5 +30,21 @@
     "provider": "nex-agi",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-06-23 08:01:43 UTC",
+    "model_id": "cohere/north-mini-code:free",
+    "model_name": "Cohere: North Mini Code (free)",
+    "provider": "cohere",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-06-23 08:01:43 UTC",
+    "model_id": "nex-agi/nex-n2-pro:free",
+    "model_name": "Nex AGI: Nex-N2-Pro (free)",
+    "provider": "nex-agi",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
   }
 ]
