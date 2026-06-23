@@ -89,5 +89,12 @@
     "model_name": "Nex AGI: Nex-N2-Pro",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.00 to $0.44 (省 56%)"
+  },
+  {
+    "timestamp": "2026-06-23 21:22:42 UTC",
+    "model_id": "minimax/minimax-m2.7",
+    "model_name": "MiniMax: MiniMax M2.7",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.44 to $0.42 (省 4%)"
   }
 ]
