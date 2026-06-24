@@ -96,5 +96,19 @@
     "model_name": "MiniMax: MiniMax M2.7",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.44 to $0.42 (省 4%)"
+  },
+  {
+    "timestamp": "2026-06-24 21:16:02 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.50 to $1.46 (省 3%)"
+  },
+  {
+    "timestamp": "2026-06-24 21:16:02 UTC",
+    "model_id": "xiaomi/mimo-v2.5",
+    "model_name": "Xiaomi: MiMo-V2.5",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.15 (省 15%)"
   }
 ]
