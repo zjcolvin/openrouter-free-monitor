@@ -110,5 +110,26 @@
     "model_name": "Xiaomi: MiMo-V2.5",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.18 to $0.15 (省 15%)"
+  },
+  {
+    "timestamp": "2026-06-25 21:20:42 UTC",
+    "model_id": "minimax/minimax-m2.7",
+    "model_name": "MiniMax: MiniMax M2.7",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.42 to $0.32 (省 25%)"
+  },
+  {
+    "timestamp": "2026-06-25 21:20:42 UTC",
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax: MiniMax M2.5",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.34 to $0.21 (省 38%)"
+  },
+  {
+    "timestamp": "2026-06-25 21:20:42 UTC",
+    "model_id": "openai/gpt-oss-120b",
+    "model_name": "OpenAI: gpt-oss-120b",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.07 to $0.06 (省 19%)"
   }
 ]
