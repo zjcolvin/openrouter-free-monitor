@@ -131,5 +131,19 @@
     "model_name": "OpenAI: gpt-oss-120b",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.07 to $0.06 (省 19%)"
+  },
+  {
+    "timestamp": "2026-06-26 21:11:56 UTC",
+    "model_id": "qwen/qwen3.6-27b",
+    "model_name": "Qwen: Qwen3.6 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.01 to $0.88 (省 13%)"
+  },
+  {
+    "timestamp": "2026-06-26 21:11:56 UTC",
+    "model_id": "nvidia/nemotron-3-super-120b-a12b",
+    "model_name": "NVIDIA: Nemotron 3 Super",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.16 (省 9%)"
   }
 ]
