@@ -152,5 +152,19 @@
     "model_name": "Qwen: Qwen3.6 27B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.88 to $0.79 (省 10%)"
+  },
+  {
+    "timestamp": "2026-06-29 21:15:55 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.35 to $1.21 (省 10%)"
+  },
+  {
+    "timestamp": "2026-06-29 21:15:55 UTC",
+    "model_id": "moonshotai/kimi-k2.6",
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.35 to $1.21 (省 10%)"
   }
 ]
