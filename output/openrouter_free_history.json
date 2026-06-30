@@ -46,5 +46,13 @@
     "provider": "nex-agi",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-06-30 20:55:43 UTC",
+    "model_id": "openrouter/owl-alpha",
+    "model_name": "Owl Alpha",
+    "provider": "openrouter",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
   }
 ]
