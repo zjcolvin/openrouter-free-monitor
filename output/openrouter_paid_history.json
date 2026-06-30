@@ -166,5 +166,12 @@
     "model_name": "MoonshotAI: Kimi K2.6",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.35 to $1.21 (省 10%)"
+  },
+  {
+    "timestamp": "2026-06-30 21:22:00 UTC",
+    "model_id": "~anthropic/claude-sonnet-latest",
+    "model_name": "Anthropic Claude Sonnet Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $6.00 to $4.00 (省 33%)"
   }
 ]
