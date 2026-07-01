@@ -173,5 +173,12 @@
     "model_name": "Anthropic Claude Sonnet Latest",
     "status": "Price Drop",
     "note": "Blended Price dropped from $6.00 to $4.00 (省 33%)"
+  },
+  {
+    "timestamp": "2026-07-01 21:15:58 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.11 (省 8%)"
   }
 ]
