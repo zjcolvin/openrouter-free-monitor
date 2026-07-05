@@ -194,5 +194,12 @@
     "model_name": "Z.ai: GLM 5.2",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.45 to $1.18 (省 18%)"
+  },
+  {
+    "timestamp": "2026-07-05 20:45:03 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.18 to $0.88 (省 25%)"
   }
 ]
