@@ -62,5 +62,13 @@
     "provider": "poolside",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-07-06 20:50:17 UTC",
+    "model_id": "tencent/hy3:free",
+    "model_name": "Tencent: Hy3 (free)",
+    "provider": "tencent",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
