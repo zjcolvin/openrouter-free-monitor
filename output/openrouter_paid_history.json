@@ -201,5 +201,19 @@
     "model_name": "Z.ai: GLM 5.2",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.18 to $0.88 (省 25%)"
+  },
+  {
+    "timestamp": "2026-07-08 20:54:59 UTC",
+    "model_id": "tencent/hy3",
+    "model_name": "Tencent: Hy3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.35 to $0.25 (省 29%)"
+  },
+  {
+    "timestamp": "2026-07-08 20:54:59 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.45 to $0.65 (省 55%)"
   }
 ]
