@@ -222,5 +222,19 @@
     "model_name": "MoonshotAI: Kimi K2.7 Code",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.43 to $1.41 (省 1%)"
+  },
+  {
+    "timestamp": "2026-07-10 20:58:34 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.84 to $0.65 (省 24%)"
+  },
+  {
+    "timestamp": "2026-07-10 20:58:34 UTC",
+    "model_id": "deepseek/deepseek-v3.2",
+    "model_name": "DeepSeek: DeepSeek V3.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.24 (省 6%)"
   }
 ]
