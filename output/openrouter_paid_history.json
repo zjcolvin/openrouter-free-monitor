@@ -243,5 +243,12 @@
     "model_name": "Z.ai: GLM 5.2",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.65 to $0.54 (省 17%)"
+  },
+  {
+    "timestamp": "2026-07-12 20:34:28 UTC",
+    "model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "model_name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.85 to $0.38 (省 56%)"
   }
 ]
