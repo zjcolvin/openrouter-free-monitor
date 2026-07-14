@@ -250,5 +250,26 @@
     "model_name": "Qwen: Qwen2.5 VL 72B Instruct",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.85 to $0.38 (省 56%)"
+  },
+  {
+    "timestamp": "2026-07-14 20:48:29 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.45 to $1.40 (省 3%)"
+  },
+  {
+    "timestamp": "2026-07-14 20:48:29 UTC",
+    "model_id": "google/gemma-4-31b-it",
+    "model_name": "Google: Gemma 4 31B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.13 (省 25%)"
+  },
+  {
+    "timestamp": "2026-07-14 20:48:29 UTC",
+    "model_id": "openai/gpt-oss-120b",
+    "model_name": "OpenAI: gpt-oss-120b",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.07 to $0.06 (省 17%)"
   }
 ]
