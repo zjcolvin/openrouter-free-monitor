@@ -271,5 +271,19 @@
     "model_name": "OpenAI: gpt-oss-120b",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.07 to $0.06 (省 17%)"
+  },
+  {
+    "timestamp": "2026-07-15 20:48:23 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.40 to $1.29 (省 7%)"
+  },
+  {
+    "timestamp": "2026-07-15 20:48:23 UTC",
+    "model_id": "qwen/qwen3-coder",
+    "model_name": "Qwen: Qwen3 Coder 480B A35B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.61 to $0.47 (省 23%)"
   }
 ]
