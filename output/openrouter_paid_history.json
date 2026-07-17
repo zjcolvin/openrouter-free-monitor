@@ -285,5 +285,33 @@
     "model_name": "Qwen: Qwen3 Coder 480B A35B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.61 to $0.47 (省 23%)"
+  },
+  {
+    "timestamp": "2026-07-17 20:41:41 UTC",
+    "model_id": "google/gemma-4-31b-it",
+    "model_name": "Google: Gemma 4 31B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.30 to $0.18 (省 40%)"
+  },
+  {
+    "timestamp": "2026-07-17 20:41:41 UTC",
+    "model_id": "minimax/minimax-m2.7",
+    "model_name": "MiniMax: MiniMax M2.7",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.44 (省 17%)"
+  },
+  {
+    "timestamp": "2026-07-17 20:41:41 UTC",
+    "model_id": "qwen/qwen3.5-397b-a17b",
+    "model_name": "Qwen: Qwen3.5 397B A17B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.09 to $0.88 (省 19%)"
+  },
+  {
+    "timestamp": "2026-07-17 20:41:41 UTC",
+    "model_id": "google/gemma-3-27b-it",
+    "model_name": "Google: Gemma 3 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.17 to $0.15 (省 13%)"
   }
 ]
