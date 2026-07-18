@@ -313,5 +313,19 @@
     "model_name": "Google: Gemma 3 27B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.17 to $0.15 (省 13%)"
+  },
+  {
+    "timestamp": "2026-07-18 20:36:13 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.41 to $0.42 (省 70%)"
+  },
+  {
+    "timestamp": "2026-07-18 20:36:13 UTC",
+    "model_id": "mancer/weaver",
+    "model_name": "Mancer: Weaver (alpha)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.81 to $0.56 (省 31%)"
   }
 ]
