@@ -327,5 +327,40 @@
     "model_name": "Mancer: Weaver (alpha)",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.81 to $0.56 (省 31%)"
+  },
+  {
+    "timestamp": "2026-07-19 20:36:39 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.42 to $0.35 (省 15%)"
+  },
+  {
+    "timestamp": "2026-07-19 20:36:39 UTC",
+    "model_id": "moonshotai/kimi-k2.6",
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.71 to $1.37 (省 20%)"
+  },
+  {
+    "timestamp": "2026-07-19 20:36:39 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.14 (省 8%)"
+  },
+  {
+    "timestamp": "2026-07-19 20:36:39 UTC",
+    "model_id": "nvidia/nemotron-3-super-120b-a12b",
+    "model_name": "NVIDIA: Nemotron 3 Super",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.27 to $0.16 (省 40%)"
+  },
+  {
+    "timestamp": "2026-07-19 20:36:39 UTC",
+    "model_id": "qwen/qwen3-14b",
+    "model_name": "Qwen: Qwen3 14B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.40 to $0.15 (省 62%)"
   }
 ]
