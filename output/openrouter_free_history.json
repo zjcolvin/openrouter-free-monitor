@@ -102,5 +102,53 @@
     "provider": "openai",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-07-19 20:05:33 UTC",
+    "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+    "model_name": "Venice: Uncensored (free)",
+    "provider": "cognitivecomputations",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-07-19 20:05:33 UTC",
+    "model_id": "meta-llama/llama-3.2-3b-instruct:free",
+    "model_name": "Meta: Llama 3.2 3B Instruct (free)",
+    "provider": "meta-llama",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-07-19 20:05:33 UTC",
+    "model_id": "meta-llama/llama-3.3-70b-instruct:free",
+    "model_name": "Meta: Llama 3.3 70B Instruct (free)",
+    "provider": "meta-llama",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-07-19 20:05:33 UTC",
+    "model_id": "nousresearch/hermes-3-llama-3.1-405b:free",
+    "model_name": "Nous: Hermes 3 405B Instruct (free)",
+    "provider": "nousresearch",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-07-19 20:05:33 UTC",
+    "model_id": "qwen/qwen3-coder:free",
+    "model_name": "Qwen: Qwen3 Coder 480B A35B (free)",
+    "provider": "qwen",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-07-19 20:05:33 UTC",
+    "model_id": "qwen/qwen3-next-80b-a3b-instruct:free",
+    "model_name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
+    "provider": "qwen",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
   }
 ]
