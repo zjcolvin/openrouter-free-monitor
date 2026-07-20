@@ -362,5 +362,19 @@
     "model_name": "Qwen: Qwen3 14B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.40 to $0.15 (省 62%)"
+  },
+  {
+    "timestamp": "2026-07-20 20:59:14 UTC",
+    "model_id": "moonshotai/kimi-k2.7-code",
+    "model_name": "MoonshotAI: Kimi K2.7 Code",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.59 to $1.55 (省 2%)"
+  },
+  {
+    "timestamp": "2026-07-20 20:59:14 UTC",
+    "model_id": "z-ai/glm-5",
+    "model_name": "Z.ai: GLM 5",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.50 to $1.35 (省 10%)"
   }
 ]
