@@ -376,5 +376,40 @@
     "model_name": "Z.ai: GLM 5",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.50 to $1.35 (省 10%)"
+  },
+  {
+    "timestamp": "2026-07-21 20:56:59 UTC",
+    "model_id": "tencent/hy3",
+    "model_name": "Tencent: Hy3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.35 to $0.25 (省 29%)"
+  },
+  {
+    "timestamp": "2026-07-21 20:56:59 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.44 to $1.20 (省 17%)"
+  },
+  {
+    "timestamp": "2026-07-21 20:56:59 UTC",
+    "model_id": "~google/gemini-flash-latest",
+    "model_name": "Google Gemini Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.38 to $3.00 (省 11%)"
+  },
+  {
+    "timestamp": "2026-07-21 20:56:59 UTC",
+    "model_id": "google/gemma-4-31b-it",
+    "model_name": "Google: Gemma 4 31B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.30 to $0.18 (省 40%)"
+  },
+  {
+    "timestamp": "2026-07-21 20:56:59 UTC",
+    "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+    "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.35 to $0.27 (省 23%)"
   }
 ]
