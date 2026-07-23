@@ -411,5 +411,26 @@
     "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.35 to $0.27 (省 23%)"
+  },
+  {
+    "timestamp": "2026-07-23 20:50:11 UTC",
+    "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "model_name": "NVIDIA: Nemotron 3 Ultra",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.35 to $0.93 (省 31%)"
+  },
+  {
+    "timestamp": "2026-07-23 20:50:11 UTC",
+    "model_id": "qwen/qwen3.5-27b",
+    "model_name": "Qwen: Qwen3.5-27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.84 to $0.54 (省 37%)"
+  },
+  {
+    "timestamp": "2026-07-23 20:50:11 UTC",
+    "model_id": "minimax/minimax-m2",
+    "model_name": "MiniMax: MiniMax M2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.45 (省 15%)"
   }
 ]
