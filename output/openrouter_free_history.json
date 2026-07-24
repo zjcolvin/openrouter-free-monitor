@@ -174,5 +174,13 @@
     "provider": "inclusionai",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-07-24 20:16:58 UTC",
+    "model_id": "google/gemma-4-31b-it:free",
+    "model_name": "Google: Gemma 4 31B (free)",
+    "provider": "google",
+    "status": "Moved",
+    "note": "仍免費，但已不在主 free 榜"
   }
 ]
