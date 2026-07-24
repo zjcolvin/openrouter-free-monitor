@@ -432,5 +432,40 @@
     "model_name": "MiniMax: MiniMax M2",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.52 to $0.45 (省 15%)"
+  },
+  {
+    "timestamp": "2026-07-24 20:54:00 UTC",
+    "model_id": "tencent/hy3",
+    "model_name": "Tencent: Hy3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.25 to $0.23 (省 8%)"
+  },
+  {
+    "timestamp": "2026-07-24 20:54:00 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.24 to $1.19 (省 4%)"
+  },
+  {
+    "timestamp": "2026-07-24 20:54:00 UTC",
+    "model_id": "moonshotai/kimi-k2.7-code",
+    "model_name": "MoonshotAI: Kimi K2.7 Code",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.55 to $1.46 (省 6%)"
+  },
+  {
+    "timestamp": "2026-07-24 20:54:00 UTC",
+    "model_id": "qwen/qwen3.6-27b",
+    "model_name": "Qwen: Qwen3.6 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.35 to $0.82 (省 39%)"
+  },
+  {
+    "timestamp": "2026-07-24 20:54:00 UTC",
+    "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+    "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.41 to $0.35 (省 15%)"
   }
 ]
