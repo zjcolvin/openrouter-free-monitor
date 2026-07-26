@@ -488,5 +488,33 @@
     "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.15 to $0.08 (省 44%)"
+  },
+  {
+    "timestamp": "2026-07-26 20:44:09 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.07 to $1.03 (省 4%)"
+  },
+  {
+    "timestamp": "2026-07-26 20:44:09 UTC",
+    "model_id": "moonshotai/kimi-k2.7-code",
+    "model_name": "MoonshotAI: Kimi K2.7 Code",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.46 to $1.42 (省 3%)"
+  },
+  {
+    "timestamp": "2026-07-26 20:44:09 UTC",
+    "model_id": "qwen/qwen3.6-27b",
+    "model_name": "Qwen: Qwen3.6 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.82 to $0.72 (省 11%)"
+  },
+  {
+    "timestamp": "2026-07-26 20:44:09 UTC",
+    "model_id": "qwen/qwen3-30b-a3b",
+    "model_name": "Qwen: Qwen3 30B A3B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.23 to $0.21 (省 5%)"
   }
 ]
