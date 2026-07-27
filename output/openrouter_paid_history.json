@@ -516,5 +516,40 @@
     "model_name": "Qwen: Qwen3 30B A3B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.23 to $0.21 (省 5%)"
+  },
+  {
+    "timestamp": "2026-07-27 21:00:25 UTC",
+    "model_id": "openai/gpt-5.6-luna-pro",
+    "model_name": "OpenAI: GPT-5.6 Luna Pro",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.25 to $1.12 (省 50%)"
+  },
+  {
+    "timestamp": "2026-07-27 21:00:25 UTC",
+    "model_id": "openai/gpt-5.6-luna",
+    "model_name": "OpenAI: GPT-5.6 Luna",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.25 to $1.12 (省 50%)"
+  },
+  {
+    "timestamp": "2026-07-27 21:00:25 UTC",
+    "model_id": "openai/gpt-5.6-terra-pro",
+    "model_name": "OpenAI: GPT-5.6 Terra Pro",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.62 to $2.81 (省 50%)"
+  },
+  {
+    "timestamp": "2026-07-27 21:00:25 UTC",
+    "model_id": "openai/gpt-5.6-terra",
+    "model_name": "OpenAI: GPT-5.6 Terra",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.62 to $2.81 (省 50%)"
+  },
+  {
+    "timestamp": "2026-07-27 21:00:25 UTC",
+    "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "model_name": "NVIDIA: Nemotron 3 Ultra",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.35 to $0.93 (省 31%)"
   }
 ]
