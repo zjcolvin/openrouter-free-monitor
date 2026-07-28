@@ -551,5 +551,12 @@
     "model_name": "NVIDIA: Nemotron 3 Ultra",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.35 to $0.93 (省 31%)"
+  },
+  {
+    "timestamp": "2026-07-28 20:57:19 UTC",
+    "model_id": "qwen/qwen3.7-max",
+    "model_name": "Qwen: Qwen3.7 Max",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.21 to $1.88 (省 15%)"
   }
 ]
