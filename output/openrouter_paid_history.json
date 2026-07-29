@@ -558,5 +558,40 @@
     "model_name": "Qwen: Qwen3.7 Max",
     "status": "Price Drop",
     "note": "Blended Price dropped from $2.21 to $1.88 (省 15%)"
+  },
+  {
+    "timestamp": "2026-07-29 20:41:39 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.18 to $1.06 (省 10%)"
+  },
+  {
+    "timestamp": "2026-07-29 20:41:39 UTC",
+    "model_id": "qwen/qwen3.6-max-preview",
+    "model_name": "Qwen: Qwen3.6 Max Preview",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.34 to $2.31 (省 1%)"
+  },
+  {
+    "timestamp": "2026-07-29 20:41:39 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.22 to $0.14 (省 39%)"
+  },
+  {
+    "timestamp": "2026-07-29 20:41:39 UTC",
+    "model_id": "qwen/qwen3-coder-next",
+    "model_name": "Qwen: Qwen3 Coder Next",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.36 to $0.29 (省 19%)"
+  },
+  {
+    "timestamp": "2026-07-29 20:41:39 UTC",
+    "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "model_name": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.23 (省 13%)"
   }
 ]
