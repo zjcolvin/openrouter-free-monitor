@@ -593,5 +593,47 @@
     "model_name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.26 to $0.23 (省 13%)"
+  },
+  {
+    "timestamp": "2026-07-30 20:53:36 UTC",
+    "model_id": "openai/gpt-5.6-luna-pro",
+    "model_name": "OpenAI: GPT-5.6 Luna Pro",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.12 to $0.23 (省 80%)"
+  },
+  {
+    "timestamp": "2026-07-30 20:53:36 UTC",
+    "model_id": "openai/gpt-5.6-luna",
+    "model_name": "OpenAI: GPT-5.6 Luna",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.12 to $0.23 (省 80%)"
+  },
+  {
+    "timestamp": "2026-07-30 20:53:36 UTC",
+    "model_id": "openai/gpt-5.6-terra-pro",
+    "model_name": "OpenAI: GPT-5.6 Terra Pro",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.81 to $2.25 (省 20%)"
+  },
+  {
+    "timestamp": "2026-07-30 20:53:36 UTC",
+    "model_id": "openai/gpt-5.6-terra",
+    "model_name": "OpenAI: GPT-5.6 Terra",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.81 to $2.25 (省 20%)"
+  },
+  {
+    "timestamp": "2026-07-30 20:53:36 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $6.00 to $5.68 (省 5%)"
+  },
+  {
+    "timestamp": "2026-07-30 20:53:36 UTC",
+    "model_id": "google/gemma-4-31b-it",
+    "model_name": "Google: Gemma 4 31B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.21 to $0.16 (省 22%)"
   }
 ]
