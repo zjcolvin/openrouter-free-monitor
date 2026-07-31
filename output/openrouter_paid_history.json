@@ -635,5 +635,40 @@
     "model_name": "Google: Gemma 4 31B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.21 to $0.16 (省 22%)"
+  },
+  {
+    "timestamp": "2026-07-31 20:51:49 UTC",
+    "model_id": "poolside/laguna-s-2.1",
+    "model_name": "Poolside: Laguna S 2.1",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.11 (省 10%)"
+  },
+  {
+    "timestamp": "2026-07-31 20:51:49 UTC",
+    "model_id": "moonshotai/kimi-k2.6",
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.71 to $1.06 (省 38%)"
+  },
+  {
+    "timestamp": "2026-07-31 20:51:49 UTC",
+    "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "model_name": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.23 (省 13%)"
+  },
+  {
+    "timestamp": "2026-07-31 20:51:49 UTC",
+    "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+    "model_name": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.97 to $0.75 (省 23%)"
+  },
+  {
+    "timestamp": "2026-07-31 20:51:49 UTC",
+    "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+    "model_name": "Mistral: Mistral Small 3.2 24B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.11 (省 29%)"
   }
 ]
