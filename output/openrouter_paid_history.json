@@ -670,5 +670,26 @@
     "model_name": "Mistral: Mistral Small 3.2 24B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.15 to $0.11 (省 29%)"
+  },
+  {
+    "timestamp": "2026-08-01 20:39:23 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.11 (省 36%)"
+  },
+  {
+    "timestamp": "2026-08-01 20:39:23 UTC",
+    "model_id": "thinkingmachines/inkling-small",
+    "model_name": "Thinking Machines: Inkling Small",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.79 to $0.68 (省 15%)"
+  },
+  {
+    "timestamp": "2026-08-01 20:39:23 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.72 to $0.65 (省 62%)"
   }
 ]
