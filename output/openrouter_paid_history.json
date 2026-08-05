@@ -719,5 +719,33 @@
     "model_name": "Meta: Llama 3.3 70B Instruct",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.20 to $0.15 (省 22%)"
+  },
+  {
+    "timestamp": "2026-08-05 20:55:23 UTC",
+    "model_id": "moonshotai/kimi-k2.7-code",
+    "model_name": "MoonshotAI: Kimi K2.7 Code",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.42 to $1.40 (省 2%)"
+  },
+  {
+    "timestamp": "2026-08-05 20:55:23 UTC",
+    "model_id": "z-ai/glm-5.1",
+    "model_name": "Z.ai: GLM 5.1",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.48 to $1.46 (省 1%)"
+  },
+  {
+    "timestamp": "2026-08-05 20:55:23 UTC",
+    "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+    "model_name": "Qwen: Qwen3 VL 235B A22B Thinking",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.72 to $1.30 (省 25%)"
+  },
+  {
+    "timestamp": "2026-08-05 20:55:23 UTC",
+    "model_id": "qwen/qwen3-235b-a22b-2507",
+    "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.21 (省 22%)"
   }
 ]
