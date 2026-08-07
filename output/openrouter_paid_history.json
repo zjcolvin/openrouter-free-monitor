@@ -768,5 +768,40 @@
     "model_name": "MoonshotAI: Kimi K2.6",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.06 to $1.03 (省 3%)"
+  },
+  {
+    "timestamp": "2026-08-07 20:27:52 UTC",
+    "model_id": "thinkingmachines/inkling-small",
+    "model_name": "Thinking Machines: Inkling Small",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.68 to $0.64 (省 6%)"
+  },
+  {
+    "timestamp": "2026-08-07 20:27:52 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.84 to $0.77 (省 8%)"
+  },
+  {
+    "timestamp": "2026-08-07 20:27:52 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.68 to $5.38 (省 5%)"
+  },
+  {
+    "timestamp": "2026-08-07 20:27:52 UTC",
+    "model_id": "google/gemma-4-31b-it",
+    "model_name": "Google: Gemma 4 31B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.21 to $0.16 (省 22%)"
+  },
+  {
+    "timestamp": "2026-08-07 20:27:52 UTC",
+    "model_id": "nvidia/nemotron-3-super-120b-a12b",
+    "model_name": "NVIDIA: Nemotron 3 Super",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.45 to $0.16 (省 64%)"
   }
 ]
