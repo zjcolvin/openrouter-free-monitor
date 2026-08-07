@@ -747,5 +747,26 @@
     "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.26 to $0.21 (省 22%)"
+  },
+  {
+    "timestamp": "2026-08-07 00:49:52 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.18 to $0.84 (省 29%)"
+  },
+  {
+    "timestamp": "2026-08-07 00:49:52 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.11 (省 37%)"
+  },
+  {
+    "timestamp": "2026-08-07 00:49:52 UTC",
+    "model_id": "moonshotai/kimi-k2.6",
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.06 to $1.03 (省 3%)"
   }
 ]
