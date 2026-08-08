@@ -803,5 +803,19 @@
     "model_name": "NVIDIA: Nemotron 3 Super",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.45 to $0.16 (省 64%)"
+  },
+  {
+    "timestamp": "2026-08-08 20:16:01 UTC",
+    "model_id": "thinkingmachines/inkling",
+    "model_name": "Thinking Machines: Inkling",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.76 to $1.72 (省 2%)"
+  },
+  {
+    "timestamp": "2026-08-08 20:16:01 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.77 to $0.28 (省 64%)"
   }
 ]
