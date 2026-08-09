@@ -817,5 +817,19 @@
     "model_name": "Z.ai: GLM 5.2",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.77 to $0.28 (省 64%)"
+  },
+  {
+    "timestamp": "2026-08-09 20:18:36 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.28 to $0.11 (省 62%)"
+  },
+  {
+    "timestamp": "2026-08-09 20:18:36 UTC",
+    "model_id": "gryphe/mythomax-l2-13b",
+    "model_name": "MythoMax 13B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.09 to $0.06 (省 31%)"
   }
 ]
