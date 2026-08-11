@@ -859,5 +859,19 @@
     "model_name": "Qwen: Qwen3 14B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.40 to $0.15 (省 62%)"
+  },
+  {
+    "timestamp": "2026-08-11 20:32:36 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.81 to $0.62 (省 23%)"
+  },
+  {
+    "timestamp": "2026-08-11 20:32:36 UTC",
+    "model_id": "meta-llama/llama-4-maverick",
+    "model_name": "Meta: Llama 4 Maverick",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.35 to $0.32 (省 7%)"
   }
 ]
