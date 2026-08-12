@@ -214,5 +214,13 @@
     "provider": "nvidia",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-08-12 19:59:06 UTC",
+    "model_id": "liquid/lfm-2.5-2.6b:free",
+    "model_name": "LiquidAI: LFM2.5-2.6B (free)",
+    "provider": "liquid",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
