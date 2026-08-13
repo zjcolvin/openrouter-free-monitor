@@ -894,5 +894,68 @@
     "model_name": "DeepSeek: DeepSeek V3.1 Terminus",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.45 to $0.44 (省 3%)"
+  },
+  {
+    "timestamp": "2026-08-13 20:29:04 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.09 (省 27%)"
+  },
+  {
+    "timestamp": "2026-08-13 20:29:04 UTC",
+    "model_id": "google/gemini-3.6-flash",
+    "model_name": "Google: Gemini 3.6 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.00 to $1.50 (省 50%)"
+  },
+  {
+    "timestamp": "2026-08-13 20:29:04 UTC",
+    "model_id": "google/gemini-3.6-flash:batch",
+    "model_name": "Google: Gemini 3.6 Flash (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.50 to $0.75 (省 50%)"
+  },
+  {
+    "timestamp": "2026-08-13 20:29:04 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.75 to $0.60 (省 20%)"
+  },
+  {
+    "timestamp": "2026-08-13 20:29:04 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.60 to $4.80 (省 14%)"
+  },
+  {
+    "timestamp": "2026-08-13 20:29:04 UTC",
+    "model_id": "~google/gemini-flash-latest",
+    "model_name": "Google Gemini Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.00 to $0.75 (省 75%)"
+  },
+  {
+    "timestamp": "2026-08-13 20:29:04 UTC",
+    "model_id": "moonshotai/kimi-k2.6",
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.04 to $1.01 (省 3%)"
+  },
+  {
+    "timestamp": "2026-08-13 20:29:04 UTC",
+    "model_id": "z-ai/glm-5.1",
+    "model_name": "Z.ai: GLM 5.1",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $1.46 (省 32%)"
+  },
+  {
+    "timestamp": "2026-08-13 20:29:04 UTC",
+    "model_id": "z-ai/glm-4.6",
+    "model_name": "Z.ai: GLM 4.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.96 to $0.88 (省 9%)"
   }
 ]
