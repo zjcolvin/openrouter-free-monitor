@@ -971,5 +971,54 @@
     "model_name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.26 to $0.23 (省 13%)"
+  },
+  {
+    "timestamp": "2026-08-15 20:09:57 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.10 to $0.08 (省 15%)"
+  },
+  {
+    "timestamp": "2026-08-15 20:09:57 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.83 to $0.71 (省 61%)"
+  },
+  {
+    "timestamp": "2026-08-15 20:09:57 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.08 (省 54%)"
+  },
+  {
+    "timestamp": "2026-08-15 20:09:57 UTC",
+    "model_id": "moonshotai/kimi-k2.6",
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.01 to $0.98 (省 3%)"
+  },
+  {
+    "timestamp": "2026-08-15 20:09:57 UTC",
+    "model_id": "z-ai/glm-5.1",
+    "model_name": "Z.ai: GLM 5.1",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $1.48 (省 31%)"
+  },
+  {
+    "timestamp": "2026-08-15 20:09:57 UTC",
+    "model_id": "z-ai/glm-5",
+    "model_name": "Z.ai: GLM 5",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.35 to $0.93 (省 31%)"
+  },
+  {
+    "timestamp": "2026-08-15 20:09:57 UTC",
+    "model_id": "qwen/qwen-plus-2025-07-28:thinking",
+    "model_name": "Qwen: Qwen Plus 0728 (thinking)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.60 to $0.39 (省 35%)"
   }
 ]
