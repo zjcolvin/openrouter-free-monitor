@@ -230,5 +230,13 @@
     "provider": "inclusionai",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-08-15 19:18:03 UTC",
+    "model_id": "dots-studio/dots-3-note-preview:free",
+    "model_name": "Dots Studio: Dots3-Note Preview (free)",
+    "provider": "dots-studio",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
