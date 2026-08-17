@@ -238,5 +238,13 @@
     "provider": "dots-studio",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-08-17 19:23:56 UTC",
+    "model_id": "z-ai/glm-5.2:free",
+    "model_name": "Z.ai: GLM 5.2 (free)",
+    "provider": "z-ai",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
