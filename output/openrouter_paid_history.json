@@ -1153,5 +1153,12 @@
     "model_name": "DeepSeek: DeepSeek V3 0324",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.48 to $0.44 (省 9%)"
+  },
+  {
+    "timestamp": "2026-08-20 20:15:58 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.10 to $0.08 (省 12%)"
   }
 ]
