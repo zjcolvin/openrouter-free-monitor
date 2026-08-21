@@ -1160,5 +1160,26 @@
     "model_name": "DeepSeek V4 Flash Latest",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.10 to $0.08 (省 12%)"
+  },
+  {
+    "timestamp": "2026-08-21 20:12:53 UTC",
+    "model_id": "meta/muse-glimmer-30b",
+    "model_name": "Meta: Muse Glimmer 30B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.64 to $0.50 (省 22%)"
+  },
+  {
+    "timestamp": "2026-08-21 20:12:53 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.10 (省 40%)"
+  },
+  {
+    "timestamp": "2026-08-21 20:12:53 UTC",
+    "model_id": "moonshotai/kimi-k2.7-code",
+    "model_name": "MoonshotAI: Kimi K2.7 Code",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.41 to $1.35 (省 4%)"
   }
 ]
