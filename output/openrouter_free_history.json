@@ -246,5 +246,21 @@
     "provider": "z-ai",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-08-21 19:22:08 UTC",
+    "model_id": "stealth/ox-alpha",
+    "model_name": "Ox Alpha",
+    "provider": "stealth",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-08-21 19:22:08 UTC",
+    "model_id": "openai/gpt-oss-20b:free",
+    "model_name": "OpenAI: gpt-oss-20b (free)",
+    "provider": "openai",
+    "status": "Moved",
+    "note": "仍免費，但已不在主 free 榜"
   }
 ]
