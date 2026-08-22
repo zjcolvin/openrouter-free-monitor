@@ -262,5 +262,29 @@
     "provider": "openai",
     "status": "Moved",
     "note": "仍免費，但已不在主 free 榜"
+  },
+  {
+    "timestamp": "2026-08-22 19:18:59 UTC",
+    "model_id": "thinkingmachines/inkling:free",
+    "model_name": "Thinking Machines: Inkling (free)",
+    "provider": "thinkingmachines",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-08-22 19:18:59 UTC",
+    "model_id": "thinkingmachines/inkling-small:free",
+    "model_name": "Thinking Machines: Inkling Small (free)",
+    "provider": "thinkingmachines",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-08-22 19:18:59 UTC",
+    "model_id": "openai/gpt-oss-20b:free",
+    "model_name": "OpenAI: gpt-oss-20b (free)",
+    "provider": "openai",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
   }
 ]
