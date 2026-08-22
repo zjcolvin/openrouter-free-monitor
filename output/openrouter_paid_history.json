@@ -1181,5 +1181,75 @@
     "model_name": "MoonshotAI: Kimi K2.7 Code",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.41 to $1.35 (省 4%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "openai/gpt-5.6-sol-pro",
+    "model_name": "OpenAI: GPT-5.6 Sol Pro",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.62 to $4.00 (省 29%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "openai/gpt-5.6-sol-pro:batch",
+    "model_name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.81 to $2.00 (省 29%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "openai/gpt-5.6-sol",
+    "model_name": "OpenAI: GPT-5.6 Sol",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.62 to $4.00 (省 29%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "openai/gpt-5.6-sol:batch",
+    "model_name": "OpenAI: GPT-5.6 Sol (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.81 to $2.00 (省 29%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "~openai/gpt-latest",
+    "model_name": "OpenAI GPT Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.62 to $4.00 (省 29%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.00 to $0.52 (省 74%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.10 to $0.08 (省 26%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "moonshotai/kimi-k2.6",
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.04 to $0.98 (省 7%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "deepseek/deepseek-v3.2",
+    "model_name": "DeepSeek: DeepSeek V3.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.30 to $0.29 (省 4%)"
+  },
+  {
+    "timestamp": "2026-08-22 20:10:13 UTC",
+    "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+    "model_name": "Mistral: Mistral Small 3.2 24B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.13 to $0.11 (省 20%)"
   }
 ]
