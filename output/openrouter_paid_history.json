@@ -1251,5 +1251,47 @@
     "model_name": "Mistral: Mistral Small 3.2 24B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.13 to $0.11 (省 20%)"
+  },
+  {
+    "timestamp": "2026-08-23 20:09:58 UTC",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.14 to $1.05 (省 8%)"
+  },
+  {
+    "timestamp": "2026-08-23 20:09:58 UTC",
+    "model_id": "deepseek/deepseek-v4-pro-0813",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.78 to $1.68 (省 6%)"
+  },
+  {
+    "timestamp": "2026-08-23 20:09:58 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.09 to $0.05 (省 47%)"
+  },
+  {
+    "timestamp": "2026-08-23 20:09:58 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.50 (省 4%)"
+  },
+  {
+    "timestamp": "2026-08-23 20:09:58 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.08 to $0.06 (省 19%)"
+  },
+  {
+    "timestamp": "2026-08-23 20:09:58 UTC",
+    "model_id": "minimax/minimax-m2.7",
+    "model_name": "MiniMax: MiniMax M2.7",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.42 (省 20%)"
   }
 ]
