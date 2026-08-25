@@ -1314,5 +1314,26 @@
     "model_name": "Qwen: Qwen3 30B A3B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.23 to $0.21 (省 5%)"
+  },
+  {
+    "timestamp": "2026-08-25 20:15:35 UTC",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.05 to $0.96 (省 9%)"
+  },
+  {
+    "timestamp": "2026-08-25 20:15:35 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.08 to $0.05 (省 39%)"
+  },
+  {
+    "timestamp": "2026-08-25 20:15:35 UTC",
+    "model_id": "thinkingmachines/inkling",
+    "model_name": "Thinking Machines: Inkling",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.76 to $1.72 (省 2%)"
   }
 ]
