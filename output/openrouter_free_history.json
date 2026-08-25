@@ -318,5 +318,21 @@
     "provider": "nvidia",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-08-25 19:27:22 UTC",
+    "model_id": "minimax/minimax-m3:free",
+    "model_name": "MiniMax: MiniMax M3 (free)",
+    "provider": "minimax",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-08-25 19:27:22 UTC",
+    "model_id": "minimax/minimax-m2.7:free",
+    "model_name": "MiniMax: MiniMax M2.7 (free)",
+    "provider": "minimax",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
