@@ -1335,5 +1335,40 @@
     "model_name": "Thinking Machines: Inkling",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.76 to $1.72 (省 2%)"
+  },
+  {
+    "timestamp": "2026-08-26 22:33:58 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.05 to $0.04 (省 20%)"
+  },
+  {
+    "timestamp": "2026-08-26 22:33:58 UTC",
+    "model_id": "tencent/hy3",
+    "model_name": "Tencent: Hy3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.23 to $0.14 (省 37%)"
+  },
+  {
+    "timestamp": "2026-08-26 22:33:58 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.20 to $5.10 (省 2%)"
+  },
+  {
+    "timestamp": "2026-08-26 22:33:58 UTC",
+    "model_id": "qwen/qwen3.5-397b-a17b",
+    "model_name": "Qwen: Qwen3.5 397B A17B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.27 to $0.88 (省 31%)"
+  },
+  {
+    "timestamp": "2026-08-26 22:33:58 UTC",
+    "model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "model_name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.85 to $0.38 (省 56%)"
   }
 ]
