@@ -1398,5 +1398,54 @@
     "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.21 to $0.15 (省 25%)"
+  },
+  {
+    "timestamp": "2026-08-29 02:33:14 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-vision-exp",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.66 to $0.33 (省 50%)"
+  },
+  {
+    "timestamp": "2026-08-29 02:33:14 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $1.90 (省 12%)"
+  },
+  {
+    "timestamp": "2026-08-29 02:33:14 UTC",
+    "model_id": "deepseek/deepseek-v4-pro-0813",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.98 to $0.99 (省 50%)"
+  },
+  {
+    "timestamp": "2026-08-29 02:33:14 UTC",
+    "model_id": "nvidia/nemotron-3.5-lightning",
+    "model_name": "NVIDIA: Nemotron 3.5 Lightning",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.14 to $0.11 (省 20%)"
+  },
+  {
+    "timestamp": "2026-08-29 02:33:14 UTC",
+    "model_id": "meta/muse-glimmer-30b",
+    "model_name": "Meta: Muse Glimmer 30B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.64 to $0.52 (省 18%)"
+  },
+  {
+    "timestamp": "2026-08-29 02:33:14 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.07 to $0.06 (省 25%)"
+  },
+  {
+    "timestamp": "2026-08-29 02:33:14 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.09 to $0.89 (省 18%)"
   }
 ]
