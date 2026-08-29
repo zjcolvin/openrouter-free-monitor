@@ -1447,5 +1447,19 @@
     "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.09 to $0.89 (省 18%)"
+  },
+  {
+    "timestamp": "2026-08-29 22:05:36 UTC",
+    "model_id": "tencent/hy3",
+    "model_name": "Tencent: Hy3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.23 to $0.14 (省 37%)"
+  },
+  {
+    "timestamp": "2026-08-29 22:05:36 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.89 to $0.67 (省 24%)"
   }
 ]
