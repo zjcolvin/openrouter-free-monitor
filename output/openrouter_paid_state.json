@@ -1,6 +1,19 @@
 {
-  "last_run": "2026-08-30 22:12:19 UTC",
+  "last_run": "2026-08-31 23:28:46 UTC",
   "models": {
+    "ibm-granite/granite-4.2-8b": {
+      "model_name": "IBM: Granite 4.2 8B",
+      "model_id": "ibm-granite/granite-4.2-8b",
+      "provider": "ibm-granite",
+      "prompt_price_m": 0.09999999999999999,
+      "completion_price_m": 0.15,
+      "blended_price": 0.11249999999999999,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 131072,
+      "output_modalities": []
+    },
     "tencent/hy4-preview": {
       "model_name": "Tencent: Hy4 preview",
       "model_id": "tencent/hy4-preview",
@@ -109,13 +122,13 @@
       "model_name": "Z.ai: GLM Latest",
       "model_id": "~z-ai/glm-latest",
       "provider": "~z-ai",
-      "prompt_price_m": 1.1875,
-      "completion_price_m": 4.18,
-      "blended_price": 1.935625,
+      "prompt_price_m": 1.17,
+      "completion_price_m": 3.9600000000000004,
+      "blended_price": 1.8675000000000002,
       "performance_score": null,
       "value_index": null,
       "perf_source": "N/A",
-      "context_length": 262144,
+      "context_length": 1048576,
       "output_modalities": []
     },
     "tencent/hy-mt2-7b": {
@@ -369,9 +382,9 @@
       "model_name": "DeepSeek V4 Flash Latest",
       "model_id": "~deepseek/deepseek-v4-flash-latest",
       "provider": "~deepseek",
-      "prompt_price_m": 0.03,
+      "prompt_price_m": 0.049999999999999996,
       "completion_price_m": 0.16,
-      "blended_price": 0.0625,
+      "blended_price": 0.0775,
       "performance_score": null,
       "value_index": null,
       "perf_source": "N/A",
@@ -638,19 +651,6 @@
       "context_length": 1048576,
       "output_modalities": []
     },
-    "kwaipilot/kat-coder-air-v2.5": {
-      "model_name": "Kwaipilot: KAT-Coder-Air V2.5",
-      "model_id": "kwaipilot/kat-coder-air-v2.5",
-      "provider": "kwaipilot",
-      "prompt_price_m": 0.15,
-      "completion_price_m": 0.6,
-      "blended_price": 0.26249999999999996,
-      "performance_score": null,
-      "value_index": null,
-      "perf_source": "N/A",
-      "context_length": 256000,
-      "output_modalities": []
-    },
     "kwaipilot/kat-coder-pro-v2.5": {
       "model_name": "Kwaipilot: KAT-Coder-Pro V2.5",
       "model_id": "kwaipilot/kat-coder-pro-v2.5",
@@ -661,7 +661,7 @@
       "performance_score": null,
       "value_index": null,
       "perf_source": "N/A",
-      "context_length": 256000,
+      "context_length": 262144,
       "output_modalities": []
     },
     "openai/gpt-5.6-luna-pro": {
@@ -671,6 +671,19 @@
       "prompt_price_m": 0.19999999999999998,
       "completion_price_m": 1.2,
       "blended_price": 0.44999999999999996,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
+    "openai/gpt-5.6-luna-pro:batch": {
+      "model_name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+      "model_id": "openai/gpt-5.6-luna-pro:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.09999999999999999,
+      "completion_price_m": 0.6,
+      "blended_price": 0.22499999999999998,
       "performance_score": null,
       "value_index": null,
       "perf_source": "N/A",
@@ -690,6 +703,19 @@
       "context_length": 1050000,
       "output_modalities": []
     },
+    "openai/gpt-5.6-luna:batch": {
+      "model_name": "OpenAI: GPT-5.6 Luna (batch)",
+      "model_id": "openai/gpt-5.6-luna:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.09999999999999999,
+      "completion_price_m": 0.6,
+      "blended_price": 0.22499999999999998,
+      "performance_score": 52.3,
+      "value_index": 23244.444444444445,
+      "perf_source": "AA",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
     "openai/gpt-5.6-terra-pro": {
       "model_name": "OpenAI: GPT-5.6 Terra Pro",
       "model_id": "openai/gpt-5.6-terra-pro",
@@ -697,6 +723,19 @@
       "prompt_price_m": 2.0,
       "completion_price_m": 12.0,
       "blended_price": 4.5,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
+    "openai/gpt-5.6-terra-pro:batch": {
+      "model_name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "model_id": "openai/gpt-5.6-terra-pro:batch",
+      "provider": "openai",
+      "prompt_price_m": 1.0,
+      "completion_price_m": 6.0,
+      "blended_price": 2.25,
       "performance_score": null,
       "value_index": null,
       "perf_source": "N/A",
@@ -716,6 +755,19 @@
       "context_length": 1050000,
       "output_modalities": []
     },
+    "openai/gpt-5.6-terra:batch": {
+      "model_name": "OpenAI: GPT-5.6 Terra (batch)",
+      "model_id": "openai/gpt-5.6-terra:batch",
+      "provider": "openai",
+      "prompt_price_m": 1.0,
+      "completion_price_m": 6.0,
+      "blended_price": 2.25,
+      "performance_score": 56.6,
+      "value_index": 2515.5555555555557,
+      "perf_source": "AA",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
     "openai/gpt-5.6-sol-pro": {
       "model_name": "OpenAI: GPT-5.6 Sol Pro",
       "model_id": "openai/gpt-5.6-sol-pro",
@@ -723,6 +775,19 @@
       "prompt_price_m": 2.0,
       "completion_price_m": 10.0,
       "blended_price": 4.0,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
+    "openai/gpt-5.6-sol-pro:batch": {
+      "model_name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+      "model_id": "openai/gpt-5.6-sol-pro:batch",
+      "provider": "openai",
+      "prompt_price_m": 1.0,
+      "completion_price_m": 5.0,
+      "blended_price": 2.0,
       "performance_score": null,
       "value_index": null,
       "perf_source": "N/A",
@@ -738,6 +803,19 @@
       "blended_price": 4.0,
       "performance_score": 60.9,
       "value_index": 1522.5,
+      "perf_source": "AA",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
+    "openai/gpt-5.6-sol:batch": {
+      "model_name": "OpenAI: GPT-5.6 Sol (batch)",
+      "model_id": "openai/gpt-5.6-sol:batch",
+      "provider": "openai",
+      "prompt_price_m": 1.0,
+      "completion_price_m": 5.0,
+      "blended_price": 2.0,
+      "performance_score": 60.9,
+      "value_index": 3045.0,
       "perf_source": "AA",
       "context_length": 1050000,
       "output_modalities": []
@@ -1444,6 +1522,19 @@
       "context_length": 1050000,
       "output_modalities": []
     },
+    "openai/gpt-5.5-pro:batch": {
+      "model_name": "OpenAI: GPT-5.5 Pro (batch)",
+      "model_id": "openai/gpt-5.5-pro:batch",
+      "provider": "openai",
+      "prompt_price_m": 15.0,
+      "completion_price_m": 90.0,
+      "blended_price": 33.75,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
     "openai/gpt-5.5": {
       "model_name": "OpenAI: GPT-5.5",
       "model_id": "openai/gpt-5.5",
@@ -1457,15 +1548,28 @@
       "context_length": 1050000,
       "output_modalities": []
     },
+    "openai/gpt-5.5:batch": {
+      "model_name": "OpenAI: GPT-5.5 (batch)",
+      "model_id": "openai/gpt-5.5:batch",
+      "provider": "openai",
+      "prompt_price_m": 2.5,
+      "completion_price_m": 15.0,
+      "blended_price": 5.625,
+      "performance_score": 56.3,
+      "value_index": 1000.8888888888888,
+      "perf_source": "AA",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
     "deepseek/deepseek-v4-pro": {
       "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
       "model_id": "deepseek/deepseek-v4-pro",
       "provider": "deepseek",
-      "prompt_price_m": 0.417252,
-      "completion_price_m": 0.834504,
-      "blended_price": 0.5215650000000001,
+      "prompt_price_m": 0.87,
+      "completion_price_m": 1.74,
+      "blended_price": 1.0875,
       "performance_score": 45.3,
-      "value_index": 8685.398751833423,
+      "value_index": 4165.517241379311,
       "perf_source": "AA",
       "context_length": 1024000,
       "output_modalities": []
@@ -1474,11 +1578,11 @@
       "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
       "model_id": "deepseek/deepseek-v4-flash",
       "provider": "deepseek",
-      "prompt_price_m": 0.07868,
-      "completion_price_m": 0.15736,
-      "blended_price": 0.09834999999999999,
+      "prompt_price_m": 0.08092,
+      "completion_price_m": 0.16184,
+      "blended_price": 0.10115000000000002,
       "performance_score": 42.1,
-      "value_index": 42806.304016268434,
+      "value_index": 41621.35442412258,
       "perf_source": "AA",
       "context_length": 1024000,
       "output_modalities": []
@@ -1659,8 +1763,8 @@
       "prompt_price_m": 1.2,
       "completion_price_m": 4.0,
       "blended_price": 1.9,
-      "performance_score": 35.72380952380954,
-      "value_index": 1880.200501253134,
+      "performance_score": 35.71428571428574,
+      "value_index": 1879.699248120302,
       "perf_source": "Arena",
       "context_length": 202752,
       "output_modalities": []
@@ -1698,8 +1802,8 @@
       "prompt_price_m": 1.25,
       "completion_price_m": 2.5,
       "blended_price": 1.5625,
-      "performance_score": 36.514285714285734,
-      "value_index": 2336.914285714287,
+      "performance_score": 36.5,
+      "value_index": 2336.0,
       "perf_source": "Arena",
       "context_length": 2000000,
       "output_modalities": []
@@ -1714,7 +1818,7 @@
       "performance_score": 33.7,
       "value_index": 6419.04761904762,
       "perf_source": "AA",
-      "context_length": 256000,
+      "context_length": 262144,
       "output_modalities": []
     },
     "rekaai/reka-edge": {
@@ -1756,6 +1860,19 @@
       "context_length": 400000,
       "output_modalities": []
     },
+    "openai/gpt-5.4-nano:batch": {
+      "model_name": "OpenAI: GPT-5.4 Nano (batch)",
+      "model_id": "openai/gpt-5.4-nano:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.09999999999999999,
+      "completion_price_m": 0.625,
+      "blended_price": 0.23125,
+      "performance_score": 39.7,
+      "value_index": 17167.567567567567,
+      "perf_source": "AA",
+      "context_length": 400000,
+      "output_modalities": []
+    },
     "openai/gpt-5.4-mini": {
       "model_name": "OpenAI: GPT-5.4 Mini",
       "model_id": "openai/gpt-5.4-mini",
@@ -1765,6 +1882,19 @@
       "blended_price": 1.6875,
       "performance_score": 40.9,
       "value_index": 2423.703703703704,
+      "perf_source": "AA",
+      "context_length": 400000,
+      "output_modalities": []
+    },
+    "openai/gpt-5.4-mini:batch": {
+      "model_name": "OpenAI: GPT-5.4 Mini (batch)",
+      "model_id": "openai/gpt-5.4-mini:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.375,
+      "completion_price_m": 2.25,
+      "blended_price": 0.84375,
+      "performance_score": 40.9,
+      "value_index": 4847.407407407408,
       "perf_source": "AA",
       "context_length": 400000,
       "output_modalities": []
@@ -1873,6 +2003,19 @@
       "context_length": 1050000,
       "output_modalities": []
     },
+    "openai/gpt-5.4-pro:batch": {
+      "model_name": "OpenAI: GPT-5.4 Pro (batch)",
+      "model_id": "openai/gpt-5.4-pro:batch",
+      "provider": "openai",
+      "prompt_price_m": 15.0,
+      "completion_price_m": 90.0,
+      "blended_price": 33.75,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
     "openai/gpt-5.4": {
       "model_name": "OpenAI: GPT-5.4",
       "model_id": "openai/gpt-5.4",
@@ -1882,6 +2025,19 @@
       "blended_price": 5.625,
       "performance_score": 53.1,
       "value_index": 944.0,
+      "perf_source": "AA",
+      "context_length": 1050000,
+      "output_modalities": []
+    },
+    "openai/gpt-5.4:batch": {
+      "model_name": "OpenAI: GPT-5.4 (batch)",
+      "model_id": "openai/gpt-5.4:batch",
+      "provider": "openai",
+      "prompt_price_m": 1.25,
+      "completion_price_m": 7.5,
+      "blended_price": 2.8125,
+      "performance_score": 53.1,
+      "value_index": 1888.0,
       "perf_source": "AA",
       "context_length": 1050000,
       "output_modalities": []
@@ -2010,8 +2166,8 @@
       "prompt_price_m": 1.75,
       "completion_price_m": 14.0,
       "blended_price": 4.8125,
-      "performance_score": 25.63076923076924,
-      "value_index": 532.5874125874128,
+      "performance_score": 25.61538461538462,
+      "value_index": 532.2677322677324,
       "perf_source": "Arena",
       "context_length": 400000,
       "output_modalities": []
@@ -2088,8 +2244,8 @@
       "prompt_price_m": 0.26,
       "completion_price_m": 1.56,
       "blended_price": 0.585,
-      "performance_score": 33.25,
-      "value_index": 5683.7606837606845,
+      "performance_score": 33.225,
+      "value_index": 5679.487179487181,
       "perf_source": "Arena",
       "context_length": 1000000,
       "output_modalities": []
@@ -2127,8 +2283,8 @@
       "prompt_price_m": 0.6,
       "completion_price_m": 1.92,
       "blended_price": 0.9299999999999999,
-      "performance_score": 42.58461538461538,
-      "value_index": 4578.990901571547,
+      "performance_score": 42.553846153846145,
+      "value_index": 4575.682382133994,
       "perf_source": "Arena",
       "context_length": 198000,
       "output_modalities": []
@@ -2202,11 +2358,11 @@
       "model_name": "MoonshotAI: Kimi K2.5",
       "model_id": "moonshotai/kimi-k2.5",
       "provider": "moonshotai",
-      "prompt_price_m": 0.6,
-      "completion_price_m": 3.0,
-      "blended_price": 1.2,
+      "prompt_price_m": 0.44999999999999996,
+      "completion_price_m": 2.25,
+      "blended_price": 0.8999999999999999,
       "performance_score": 36.0,
-      "value_index": 3000.0,
+      "value_index": 4000.000000000001,
       "perf_source": "AA",
       "context_length": 262144,
       "output_modalities": []
@@ -2283,8 +2439,8 @@
       "prompt_price_m": 0.06,
       "completion_price_m": 0.39999999999999997,
       "blended_price": 0.145,
-      "performance_score": 34.4,
-      "value_index": 23724.137931034482,
+      "performance_score": 34.42857142857142,
+      "value_index": 23743.842364532018,
       "perf_source": "Arena",
       "context_length": 202752,
       "output_modalities": []
@@ -2296,8 +2452,8 @@
       "prompt_price_m": 1.75,
       "completion_price_m": 14.0,
       "blended_price": 4.8125,
-      "performance_score": 21.84000000000001,
-      "value_index": 453.8181818181821,
+      "performance_score": 21.75999999999999,
+      "value_index": 452.1558441558439,
       "perf_source": "Arena",
       "context_length": 400000,
       "output_modalities": []
@@ -2335,8 +2491,8 @@
       "prompt_price_m": 0.3,
       "completion_price_m": 1.2,
       "blended_price": 0.5249999999999999,
-      "performance_score": 41.68571428571427,
-      "value_index": 7940.136054421767,
+      "performance_score": 41.742857142857154,
+      "value_index": 7951.020408163269,
       "perf_source": "Arena",
       "context_length": 204800,
       "output_modalities": []
@@ -2361,8 +2517,8 @@
       "prompt_price_m": 0.5,
       "completion_price_m": 3.0,
       "blended_price": 1.125,
-      "performance_score": 27.3,
-      "value_index": 2426.6666666666665,
+      "performance_score": 27.28333333333335,
+      "value_index": 2425.1851851851866,
       "perf_source": "Arena",
       "context_length": 1048576,
       "output_modalities": []
@@ -2374,8 +2530,8 @@
       "prompt_price_m": 0.25,
       "completion_price_m": 1.5,
       "blended_price": 0.5625,
-      "performance_score": 27.3,
-      "value_index": 4853.333333333333,
+      "performance_score": 27.28333333333335,
+      "value_index": 4850.370370370373,
       "perf_source": "Arena",
       "context_length": 1048576,
       "output_modalities": []
@@ -2419,6 +2575,19 @@
       "context_length": 400000,
       "output_modalities": []
     },
+    "openai/gpt-5.2-pro:batch": {
+      "model_name": "OpenAI: GPT-5.2 Pro (batch)",
+      "model_id": "openai/gpt-5.2-pro:batch",
+      "provider": "openai",
+      "prompt_price_m": 10.5,
+      "completion_price_m": 84.0,
+      "blended_price": 28.875,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 400000,
+      "output_modalities": []
+    },
     "openai/gpt-5.2": {
       "model_name": "OpenAI: GPT-5.2",
       "model_id": "openai/gpt-5.2",
@@ -2426,8 +2595,21 @@
       "prompt_price_m": 1.75,
       "completion_price_m": 14.0,
       "blended_price": 4.8125,
-      "performance_score": 32.323076923076904,
-      "value_index": 671.6483516483512,
+      "performance_score": 32.307692307692285,
+      "value_index": 671.3286713286709,
+      "perf_source": "Arena",
+      "context_length": 400000,
+      "output_modalities": []
+    },
+    "openai/gpt-5.2:batch": {
+      "model_name": "OpenAI: GPT-5.2 (batch)",
+      "model_id": "openai/gpt-5.2:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.875,
+      "completion_price_m": 7.0,
+      "blended_price": 2.40625,
+      "performance_score": 32.307692307692285,
+      "value_index": 1342.6573426573418,
       "perf_source": "Arena",
       "context_length": 400000,
       "output_modalities": []
@@ -2582,8 +2764,8 @@
       "prompt_price_m": 0.26899999999999996,
       "completion_price_m": 0.39999999999999997,
       "blended_price": 0.30174999999999996,
-      "performance_score": 31.525,
-      "value_index": 10447.390223695113,
+      "performance_score": 31.5,
+      "value_index": 10439.105219552612,
       "perf_source": "Arena",
       "context_length": 163840,
       "output_modalities": []
@@ -2595,8 +2777,8 @@
       "prompt_price_m": 5.0,
       "completion_price_m": 25.0,
       "blended_price": 10.0,
-      "performance_score": 46.98333333333335,
-      "value_index": 469.8333333333335,
+      "performance_score": 46.966666666666654,
+      "value_index": 469.6666666666665,
       "perf_source": "Arena",
       "context_length": 200000,
       "output_modalities": []
@@ -2608,8 +2790,8 @@
       "prompt_price_m": 2.5,
       "completion_price_m": 12.5,
       "blended_price": 5.0,
-      "performance_score": 46.98333333333335,
-      "value_index": 939.666666666667,
+      "performance_score": 46.966666666666654,
+      "value_index": 939.333333333333,
       "perf_source": "Arena",
       "context_length": 200000,
       "output_modalities": []
@@ -2640,6 +2822,19 @@
       "context_length": 400000,
       "output_modalities": []
     },
+    "openai/gpt-5.1:batch": {
+      "model_name": "OpenAI: GPT-5.1 (batch)",
+      "model_id": "openai/gpt-5.1:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.625,
+      "completion_price_m": 5.0,
+      "blended_price": 1.71875,
+      "performance_score": 37.5,
+      "value_index": 2181.8181818181815,
+      "perf_source": "AA",
+      "context_length": 400000,
+      "output_modalities": []
+    },
     "openai/gpt-5.1-codex": {
       "model_name": "OpenAI: GPT-5.1-Codex",
       "model_id": "openai/gpt-5.1-codex",
@@ -2660,8 +2855,8 @@
       "prompt_price_m": 0.25,
       "completion_price_m": 2.0,
       "blended_price": 0.6875,
-      "performance_score": 19.55,
-      "value_index": 2843.636363636364,
+      "performance_score": 19.525,
+      "value_index": 2840.0,
       "perf_source": "Arena",
       "context_length": 400000,
       "output_modalities": []
@@ -2900,6 +3095,19 @@
       "context_length": 400000,
       "output_modalities": []
     },
+    "openai/gpt-5-pro:batch": {
+      "model_name": "OpenAI: GPT-5 Pro (batch)",
+      "model_id": "openai/gpt-5-pro:batch",
+      "provider": "openai",
+      "prompt_price_m": 7.5,
+      "completion_price_m": 60.0,
+      "blended_price": 20.625,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 400000,
+      "output_modalities": []
+    },
     "z-ai/glm-4.6": {
       "model_name": "Z.ai: GLM 4.6",
       "model_id": "z-ai/glm-4.6",
@@ -2946,8 +3154,8 @@
       "prompt_price_m": 0.27,
       "completion_price_m": 0.41,
       "blended_price": 0.305,
-      "performance_score": 34.28571428571426,
-      "value_index": 11241.21779859484,
+      "performance_score": 34.342857142857156,
+      "value_index": 11259.95316159251,
       "perf_source": "Arena",
       "context_length": 163840,
       "output_modalities": []
@@ -3011,8 +3219,8 @@
       "prompt_price_m": 0.78,
       "completion_price_m": 3.9,
       "blended_price": 1.56,
-      "performance_score": 23.725,
-      "value_index": 1520.8333333333335,
+      "performance_score": 23.675,
+      "value_index": 1517.628205128205,
       "perf_source": "Arena",
       "context_length": 262144,
       "output_modalities": []
@@ -3073,9 +3281,9 @@
       "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "model_id": "qwen/qwen3-next-80b-a3b-instruct",
       "provider": "qwen",
-      "prompt_price_m": 0.09,
+      "prompt_price_m": 0.09999999999999999,
       "completion_price_m": 1.1,
-      "blended_price": 0.3425,
+      "blended_price": 0.35000000000000003,
       "performance_score": null,
       "value_index": null,
       "perf_source": "N/A",
@@ -3212,6 +3420,19 @@
       "context_length": 400000,
       "output_modalities": []
     },
+    "openai/gpt-5:batch": {
+      "model_name": "OpenAI: GPT-5 (batch)",
+      "model_id": "openai/gpt-5:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.625,
+      "completion_price_m": 5.0,
+      "blended_price": 1.71875,
+      "performance_score": 35.3,
+      "value_index": 2053.8181818181815,
+      "perf_source": "AA",
+      "context_length": 400000,
+      "output_modalities": []
+    },
     "openai/gpt-5-mini": {
       "model_name": "OpenAI: GPT-5 Mini",
       "model_id": "openai/gpt-5-mini",
@@ -3225,6 +3446,19 @@
       "context_length": 400000,
       "output_modalities": []
     },
+    "openai/gpt-5-mini:batch": {
+      "model_name": "OpenAI: GPT-5 Mini (batch)",
+      "model_id": "openai/gpt-5-mini:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.125,
+      "completion_price_m": 1.0,
+      "blended_price": 0.34375,
+      "performance_score": 25.8,
+      "value_index": 7505.454545454546,
+      "perf_source": "AA",
+      "context_length": 400000,
+      "output_modalities": []
+    },
     "openai/gpt-5-nano": {
       "model_name": "OpenAI: GPT-5 Nano",
       "model_id": "openai/gpt-5-nano",
@@ -3232,8 +3466,21 @@
       "prompt_price_m": 0.049999999999999996,
       "completion_price_m": 0.39999999999999997,
       "blended_price": 0.13749999999999998,
-      "performance_score": 16.2,
-      "value_index": 11781.818181818182,
+      "performance_score": 16.26666666666665,
+      "value_index": 11830.303030303021,
+      "perf_source": "Arena",
+      "context_length": 400000,
+      "output_modalities": []
+    },
+    "openai/gpt-5-nano:batch": {
+      "model_name": "OpenAI: GPT-5 Nano (batch)",
+      "model_id": "openai/gpt-5-nano:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.024999999999999998,
+      "completion_price_m": 0.19999999999999998,
+      "blended_price": 0.06874999999999999,
+      "performance_score": 16.26666666666665,
+      "value_index": 23660.606060606042,
       "perf_source": "Arena",
       "context_length": 400000,
       "output_modalities": []
@@ -3297,8 +3544,8 @@
       "prompt_price_m": 15.0,
       "completion_price_m": 75.0,
       "blended_price": 30.0,
-      "performance_score": 38.925,
-      "value_index": 129.75,
+      "performance_score": 38.95,
+      "value_index": 129.83333333333334,
       "perf_source": "Arena",
       "context_length": 200000,
       "output_modalities": []
@@ -3310,8 +3557,8 @@
       "prompt_price_m": 7.5,
       "completion_price_m": 37.5,
       "blended_price": 15.0,
-      "performance_score": 38.925,
-      "value_index": 259.5,
+      "performance_score": 38.95,
+      "value_index": 259.6666666666667,
       "perf_source": "Arena",
       "context_length": 200000,
       "output_modalities": []
@@ -3323,8 +3570,8 @@
       "prompt_price_m": 0.3,
       "completion_price_m": 0.8999999999999999,
       "blended_price": 0.44999999999999996,
-      "performance_score": 7.033333333333348,
-      "value_index": 1562.9629629629665,
+      "performance_score": 6.966666666666652,
+      "value_index": 1548.1481481481449,
       "perf_source": "Arena",
       "context_length": 256000,
       "output_modalities": []
@@ -3336,8 +3583,8 @@
       "prompt_price_m": 0.3,
       "completion_price_m": 0.8999999999999999,
       "blended_price": 0.44999999999999996,
-      "performance_score": 7.033333333333348,
-      "value_index": 1562.9629629629665,
+      "performance_score": 6.966666666666652,
+      "value_index": 1548.1481481481449,
       "perf_source": "Arena",
       "context_length": 256000,
       "output_modalities": []
@@ -3349,8 +3596,8 @@
       "prompt_price_m": 0.07,
       "completion_price_m": 0.28,
       "blended_price": 0.12250000000000001,
-      "performance_score": 18.8,
-      "value_index": 15346.938775510202,
+      "performance_score": 18.866666666666653,
+      "value_index": 15401.360544217676,
       "perf_source": "Arena",
       "context_length": 262144,
       "output_modalities": []
@@ -3466,8 +3713,8 @@
       "prompt_price_m": 0.0875,
       "completion_price_m": 0.35,
       "blended_price": 0.15312499999999998,
-      "performance_score": 8.166666666666652,
-      "value_index": 5333.333333333324,
+      "performance_score": 8.133333333333349,
+      "value_index": 5311.564625850351,
       "perf_source": "Arena",
       "context_length": 262144,
       "output_modalities": []
@@ -3823,6 +4070,19 @@
       "context_length": 200000,
       "output_modalities": []
     },
+    "openai/o3:batch": {
+      "model_name": "OpenAI: o3 (batch)",
+      "model_id": "openai/o3:batch",
+      "provider": "openai",
+      "prompt_price_m": 1.0,
+      "completion_price_m": 4.0,
+      "blended_price": 1.75,
+      "performance_score": 16.44000000000001,
+      "value_index": 939.4285714285719,
+      "perf_source": "Arena",
+      "context_length": 200000,
+      "output_modalities": []
+    },
     "openai/o4-mini": {
       "model_name": "OpenAI: o4 Mini",
       "model_id": "openai/o4-mini",
@@ -3836,6 +4096,19 @@
       "context_length": 200000,
       "output_modalities": []
     },
+    "openai/o4-mini:batch": {
+      "model_name": "OpenAI: o4 Mini (batch)",
+      "model_id": "openai/o4-mini:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.55,
+      "completion_price_m": 2.2,
+      "blended_price": 0.9625000000000001,
+      "performance_score": 0.0,
+      "value_index": 0.0,
+      "perf_source": "Arena",
+      "context_length": 200000,
+      "output_modalities": []
+    },
     "openai/gpt-4.1": {
       "model_name": "OpenAI: GPT-4.1",
       "model_id": "openai/gpt-4.1",
@@ -3843,8 +4116,21 @@
       "prompt_price_m": 2.0,
       "completion_price_m": 8.0,
       "blended_price": 3.5,
-      "performance_score": 8.8,
-      "value_index": 251.42857142857147,
+      "performance_score": 8.766666666666652,
+      "value_index": 250.47619047619003,
+      "perf_source": "Arena",
+      "context_length": 1047576,
+      "output_modalities": []
+    },
+    "openai/gpt-4.1:batch": {
+      "model_name": "OpenAI: GPT-4.1 (batch)",
+      "model_id": "openai/gpt-4.1:batch",
+      "provider": "openai",
+      "prompt_price_m": 1.0,
+      "completion_price_m": 4.0,
+      "blended_price": 1.75,
+      "performance_score": 8.766666666666652,
+      "value_index": 500.95238095238005,
       "perf_source": "Arena",
       "context_length": 1047576,
       "output_modalities": []
@@ -3862,6 +4148,19 @@
       "context_length": 1047576,
       "output_modalities": []
     },
+    "openai/gpt-4.1-mini:batch": {
+      "model_name": "OpenAI: GPT-4.1 Mini (batch)",
+      "model_id": "openai/gpt-4.1-mini:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.19999999999999998,
+      "completion_price_m": 0.7999999999999999,
+      "blended_price": 0.35,
+      "performance_score": 14.8,
+      "value_index": 4228.571428571429,
+      "perf_source": "AA",
+      "context_length": 1047576,
+      "output_modalities": []
+    },
     "openai/gpt-4.1-nano": {
       "model_name": "OpenAI: GPT-4.1 Nano",
       "model_id": "openai/gpt-4.1-nano",
@@ -3875,17 +4174,30 @@
       "context_length": 1047576,
       "output_modalities": []
     },
+    "openai/gpt-4.1-nano:batch": {
+      "model_name": "OpenAI: GPT-4.1 Nano (batch)",
+      "model_id": "openai/gpt-4.1-nano:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.049999999999999996,
+      "completion_price_m": 0.19999999999999998,
+      "blended_price": 0.0875,
+      "performance_score": 9.6,
+      "value_index": 10971.428571428572,
+      "perf_source": "AA",
+      "context_length": 1047576,
+      "output_modalities": []
+    },
     "meta-llama/llama-4-maverick": {
       "model_name": "Meta: Llama 4 Maverick",
       "model_id": "meta-llama/llama-4-maverick",
       "provider": "meta-llama",
       "prompt_price_m": 0.19999999999999998,
-      "completion_price_m": 0.7999999999999999,
-      "blended_price": 0.35,
+      "completion_price_m": 0.696,
+      "blended_price": 0.32399999999999995,
       "performance_score": 14.5,
-      "value_index": 4142.857142857143,
+      "value_index": 4475.30864197531,
       "perf_source": "AA",
-      "context_length": 1048576,
+      "context_length": 128000,
       "output_modalities": []
     },
     "meta-llama/llama-4-scout": {
@@ -4135,6 +4447,19 @@
       "context_length": 200000,
       "output_modalities": []
     },
+    "openai/o3-mini:batch": {
+      "model_name": "OpenAI: o3 Mini (batch)",
+      "model_id": "openai/o3-mini:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.55,
+      "completion_price_m": 2.2,
+      "blended_price": 0.9625000000000001,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 200000,
+      "output_modalities": []
+    },
     "mistralai/mistral-small-24b-instruct-2501": {
       "model_name": "Mistral: Mistral Small 3",
       "model_id": "mistralai/mistral-small-24b-instruct-2501",
@@ -4220,8 +4545,8 @@
       "prompt_price_m": 0.2574,
       "completion_price_m": 1.0287,
       "blended_price": 0.450225,
-      "performance_score": 21.0,
-      "value_index": 4664.334499416958,
+      "performance_score": 20.97142857142858,
+      "value_index": 4657.98846608442,
       "perf_source": "Arena",
       "context_length": 128000,
       "output_modalities": []
@@ -4590,6 +4915,19 @@
       "context_length": 128000,
       "output_modalities": []
     },
+    "openai/gpt-4o-mini:batch": {
+      "model_name": "OpenAI: GPT-4o-mini (batch)",
+      "model_id": "openai/gpt-4o-mini:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.075,
+      "completion_price_m": 0.3,
+      "blended_price": 0.13124999999999998,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 128000,
+      "output_modalities": []
+    },
     "google/gemma-2-27b-it": {
       "model_name": "Google: Gemma 2 27B",
       "model_id": "google/gemma-2-27b-it",
@@ -4629,6 +4967,19 @@
       "context_length": 128000,
       "output_modalities": []
     },
+    "openai/gpt-4o:batch": {
+      "model_name": "OpenAI: GPT-4o (batch)",
+      "model_id": "openai/gpt-4o:batch",
+      "provider": "openai",
+      "prompt_price_m": 1.25,
+      "completion_price_m": 5.0,
+      "blended_price": 2.1875,
+      "performance_score": 0.0,
+      "value_index": 0.0,
+      "perf_source": "Arena",
+      "context_length": 128000,
+      "output_modalities": []
+    },
     "mistralai/mixtral-8x22b-instruct": {
       "model_name": "Mistral: Mixtral 8x22B Instruct",
       "model_id": "mistralai/mixtral-8x22b-instruct",
@@ -4662,6 +5013,19 @@
       "prompt_price_m": 10.0,
       "completion_price_m": 30.0,
       "blended_price": 15.0,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 128000,
+      "output_modalities": []
+    },
+    "openai/gpt-4-turbo:batch": {
+      "model_name": "OpenAI: GPT-4 Turbo (batch)",
+      "model_id": "openai/gpt-4-turbo:batch",
+      "provider": "openai",
+      "prompt_price_m": 5.0,
+      "completion_price_m": 15.0,
+      "blended_price": 7.5,
       "performance_score": null,
       "value_index": null,
       "perf_source": "N/A",
@@ -4792,6 +5156,19 @@
       "prompt_price_m": 0.5,
       "completion_price_m": 1.5,
       "blended_price": 0.75,
+      "performance_score": null,
+      "value_index": null,
+      "perf_source": "N/A",
+      "context_length": 16385,
+      "output_modalities": []
+    },
+    "openai/gpt-3.5-turbo:batch": {
+      "model_name": "OpenAI: GPT-3.5 Turbo (batch)",
+      "model_id": "openai/gpt-3.5-turbo:batch",
+      "provider": "openai",
+      "prompt_price_m": 0.25,
+      "completion_price_m": 0.75,
+      "blended_price": 0.375,
       "performance_score": null,
       "value_index": null,
       "perf_source": "N/A",

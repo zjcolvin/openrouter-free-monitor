@@ -1482,5 +1482,26 @@
     "model_name": "Mistral: Devstral 2 2512",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.88 to $0.80 (省 9%)"
+  },
+  {
+    "timestamp": "2026-08-31 23:28:46 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.94 to $1.87 (省 4%)"
+  },
+  {
+    "timestamp": "2026-08-31 23:28:46 UTC",
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "MoonshotAI: Kimi K2.5",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.20 to $0.90 (省 25%)"
+  },
+  {
+    "timestamp": "2026-08-31 23:28:46 UTC",
+    "model_id": "meta-llama/llama-4-maverick",
+    "model_name": "Meta: Llama 4 Maverick",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.35 to $0.32 (省 7%)"
   }
 ]
