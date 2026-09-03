@@ -1566,5 +1566,19 @@
     "model_name": "DeepSeek: DeepSeek V3.1",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.83 to $0.42 (省 48%)"
+  },
+  {
+    "timestamp": "2026-09-03 21:58:32 UTC",
+    "model_id": "meta/muse-glimmer-30b",
+    "model_name": "Meta: Muse Glimmer 30B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.50 (省 5%)"
+  },
+  {
+    "timestamp": "2026-09-03 21:58:32 UTC",
+    "model_id": "meta-llama/llama-3.3-70b-instruct",
+    "model_name": "Meta: Llama 3.3 70B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.71 to $0.15 (省 78%)"
   }
 ]
