@@ -358,5 +358,13 @@
     "provider": "inclusionai",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-09-04 21:11:27 UTC",
+    "model_id": "inclusionai/ling-3.0-flash-sante:free",
+    "model_name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+    "provider": "inclusionai",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
