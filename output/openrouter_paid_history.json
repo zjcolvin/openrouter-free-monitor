@@ -1622,5 +1622,19 @@
     "model_name": "ReMM SLERP 13B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.50 to $0.42 (省 15%)"
+  },
+  {
+    "timestamp": "2026-09-05 21:45:48 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.38 to $5.10 (省 5%)"
+  },
+  {
+    "timestamp": "2026-09-05 21:45:48 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.23 to $1.02 (省 17%)"
   }
 ]
