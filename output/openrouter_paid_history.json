@@ -1636,5 +1636,26 @@
     "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.23 to $1.02 (省 17%)"
+  },
+  {
+    "timestamp": "2026-09-06 21:49:07 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.09 to $0.06 (省 33%)"
+  },
+  {
+    "timestamp": "2026-09-06 21:49:07 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.02 to $0.78 (省 24%)"
+  },
+  {
+    "timestamp": "2026-09-06 21:49:07 UTC",
+    "model_id": "qwen/qwen3.5-397b-a17b",
+    "model_name": "Qwen: Qwen3.5 397B A17B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.29 to $0.88 (省 32%)"
   }
 ]
