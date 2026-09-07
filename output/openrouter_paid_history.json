@@ -1657,5 +1657,19 @@
     "model_name": "Qwen: Qwen3.5 397B A17B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.29 to $0.88 (省 32%)"
+  },
+  {
+    "timestamp": "2026-09-07 22:21:55 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.87 to $1.72 (省 8%)"
+  },
+  {
+    "timestamp": "2026-09-07 22:21:55 UTC",
+    "model_id": "z-ai/glm-4.6",
+    "model_name": "Z.ai: GLM 4.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.96 to $0.76 (省 21%)"
   }
 ]
