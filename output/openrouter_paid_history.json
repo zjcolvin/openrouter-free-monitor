@@ -1776,5 +1776,33 @@
     "model_name": "Z.ai: GLM 4.6",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.96 to $0.76 (省 21%)"
+  },
+  {
+    "timestamp": "2026-09-10 22:02:03 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.71 to $1.07 (省 37%)"
+  },
+  {
+    "timestamp": "2026-09-10 22:02:03 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.14 to $0.09 (省 37%)"
+  },
+  {
+    "timestamp": "2026-09-10 22:02:03 UTC",
+    "model_id": "qwen/qwen3.5-122b-a10b",
+    "model_name": "Qwen: Qwen3.5-122B-A10B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.82 to $0.72 (省 13%)"
+  },
+  {
+    "timestamp": "2026-09-10 22:02:03 UTC",
+    "model_id": "deepseek/deepseek-chat",
+    "model_name": "DeepSeek: DeepSeek V3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.46 to $0.45 (省 3%)"
   }
 ]
