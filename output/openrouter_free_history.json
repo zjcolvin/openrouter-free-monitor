@@ -406,5 +406,13 @@
     "provider": "nex-agi",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-09-10 21:21:01 UTC",
+    "model_id": "inclusionai/ling-3.0-flash-vl:free",
+    "model_name": "inclusionAI: Ling 3.0 Flash VL (free)",
+    "provider": "inclusionai",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
