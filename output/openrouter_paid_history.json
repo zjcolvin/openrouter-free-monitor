@@ -1804,5 +1804,26 @@
     "model_name": "DeepSeek: DeepSeek V3",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.46 to $0.45 (省 3%)"
+  },
+  {
+    "timestamp": "2026-09-11 22:04:38 UTC",
+    "model_id": "moonshotai/kimi-k3",
+    "model_name": "MoonshotAI: Kimi K3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $6.00 to $3.60 (省 40%)"
+  },
+  {
+    "timestamp": "2026-09-11 22:04:38 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.80 to $3.60 (省 25%)"
+  },
+  {
+    "timestamp": "2026-09-11 22:04:38 UTC",
+    "model_id": "deepseek/deepseek-chat-v3-0324",
+    "model_name": "DeepSeek: DeepSeek V3 0324",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.50 to $0.44 (省 13%)"
   }
 ]
