@@ -414,5 +414,13 @@
     "provider": "inclusionai",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-09-11 21:31:43 UTC",
+    "model_id": "liquid/lfm-2.5-2.6b:free",
+    "model_name": "LiquidAI: LFM2.5-2.6B (free)",
+    "provider": "liquid",
+    "status": "Moved",
+    "note": "仍免費，但已不在主 free 榜"
   }
 ]
