@@ -1825,5 +1825,40 @@
     "model_name": "DeepSeek: DeepSeek V3 0324",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.50 to $0.44 (省 13%)"
+  },
+  {
+    "timestamp": "2026-09-12 21:47:15 UTC",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.06 to $0.80 (省 25%)"
+  },
+  {
+    "timestamp": "2026-09-12 21:47:15 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.08 to $0.04 (省 48%)"
+  },
+  {
+    "timestamp": "2026-09-12 21:47:15 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.09 to $0.05 (省 47%)"
+  },
+  {
+    "timestamp": "2026-09-12 21:47:15 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.08 (省 22%)"
+  },
+  {
+    "timestamp": "2026-09-12 21:47:15 UTC",
+    "model_id": "qwen/qwen3-235b-a22b-2507",
+    "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.39 to $0.15 (省 60%)"
   }
 ]
