@@ -1888,5 +1888,40 @@
     "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.14 to $0.08 (省 41%)"
+  },
+  {
+    "timestamp": "2026-09-14 22:49:44 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.49 to $1.44 (省 3%)"
+  },
+  {
+    "timestamp": "2026-09-14 22:49:44 UTC",
+    "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "model_name": "NVIDIA: Nemotron 3 Ultra",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.25 to $1.05 (省 16%)"
+  },
+  {
+    "timestamp": "2026-09-14 22:49:44 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.31 to $4.25 (省 2%)"
+  },
+  {
+    "timestamp": "2026-09-14 22:49:44 UTC",
+    "model_id": "qwen/qwen3-14b",
+    "model_name": "Qwen: Qwen3 14B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.40 to $0.15 (省 62%)"
+  },
+  {
+    "timestamp": "2026-09-14 22:49:44 UTC",
+    "model_id": "meta-llama/llama-4-maverick",
+    "model_name": "Meta: Llama 4 Maverick",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.32 to $0.30 (省 6%)"
   }
 ]
