@@ -422,5 +422,13 @@
     "provider": "liquid",
     "status": "Moved",
     "note": "仍免費，但已不在主 free 榜"
+  },
+  {
+    "timestamp": "2026-09-15 21:53:29 UTC",
+    "model_id": "z-ai/glm-5.2:free",
+    "model_name": "Z.ai: GLM 5.2 (free)",
+    "provider": "z-ai",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
