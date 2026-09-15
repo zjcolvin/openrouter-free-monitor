@@ -1923,5 +1923,26 @@
     "model_name": "Meta: Llama 4 Maverick",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.32 to $0.30 (省 6%)"
+  },
+  {
+    "timestamp": "2026-09-15 22:30:52 UTC",
+    "model_id": "z-ai/glm-5.3-flash",
+    "model_name": "Z.ai: GLM 5.3 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.24 to $0.12 (省 50%)"
+  },
+  {
+    "timestamp": "2026-09-15 22:30:52 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.44 to $1.40 (省 3%)"
+  },
+  {
+    "timestamp": "2026-09-15 22:30:52 UTC",
+    "model_id": "qwen/qwen3.5-35b-a3b",
+    "model_name": "Qwen: Qwen3.5-35B-A3B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.55 to $0.45 (省 18%)"
   }
 ]
