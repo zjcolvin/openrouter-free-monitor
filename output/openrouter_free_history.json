@@ -430,5 +430,21 @@
     "provider": "z-ai",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-09-16 21:51:13 UTC",
+    "model_id": "stealth/union-alpha",
+    "model_name": "Union Alpha",
+    "provider": "stealth",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-09-16 21:51:13 UTC",
+    "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "model_name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+    "provider": "nvidia",
+    "status": "Moved",
+    "note": "仍免費，但已不在主 free 榜"
   }
 ]
