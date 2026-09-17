@@ -1965,5 +1965,26 @@
     "model_name": "MiniMax: MiniMax M1",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.96 to $0.85 (省 12%)"
+  },
+  {
+    "timestamp": "2026-09-17 22:30:51 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.24 (省 10%)"
+  },
+  {
+    "timestamp": "2026-09-17 22:30:51 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.42 to $1.40 (省 2%)"
+  },
+  {
+    "timestamp": "2026-09-17 22:30:51 UTC",
+    "model_id": "meta/muse-glimmer-30b",
+    "model_name": "Meta: Muse Glimmer 30B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.64 to $0.50 (省 22%)"
   }
 ]
