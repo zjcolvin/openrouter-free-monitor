@@ -446,5 +446,13 @@
     "provider": "nvidia",
     "status": "Moved",
     "note": "仍免費，但已不在主 free 榜"
+  },
+  {
+    "timestamp": "2026-09-17 21:52:37 UTC",
+    "model_id": "qwen/qwen3.8-27b:free",
+    "model_name": "Qwen: Qwen3.8 27B (free)",
+    "provider": "qwen",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
