@@ -454,5 +454,21 @@
     "provider": "qwen",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-09-18 21:23:49 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731:free",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+    "provider": "deepseek",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-09-18 21:23:49 UTC",
+    "model_id": "stealth/union-alpha",
+    "model_name": "Union Alpha",
+    "provider": "stealth",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
   }
 ]
