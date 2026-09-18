@@ -1986,5 +1986,54 @@
     "model_name": "Meta: Muse Glimmer 30B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.64 to $0.50 (省 22%)"
+  },
+  {
+    "timestamp": "2026-09-18 22:00:40 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.24 to $0.21 (省 11%)"
+  },
+  {
+    "timestamp": "2026-09-18 22:00:40 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.40 to $1.37 (省 2%)"
+  },
+  {
+    "timestamp": "2026-09-18 22:00:40 UTC",
+    "model_id": "z-ai/glm-5.3",
+    "model_name": "Z.ai: GLM 5.3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $1.40 (省 35%)"
+  },
+  {
+    "timestamp": "2026-09-18 22:00:40 UTC",
+    "model_id": "moonshotai/kimi-k3",
+    "model_name": "MoonshotAI: Kimi K3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $6.00 to $4.19 (省 30%)"
+  },
+  {
+    "timestamp": "2026-09-18 22:00:40 UTC",
+    "model_id": "z-ai/glm-5.2",
+    "model_name": "Z.ai: GLM 5.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $0.85 (省 60%)"
+  },
+  {
+    "timestamp": "2026-09-18 22:00:40 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.31 to $4.19 (省 3%)"
+  },
+  {
+    "timestamp": "2026-09-18 22:00:40 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.09 to $0.06 (省 31%)"
   }
 ]
