@@ -470,5 +470,13 @@
     "provider": "stealth",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-09-20 21:08:46 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731:free",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+    "provider": "deepseek",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
   }
 ]
