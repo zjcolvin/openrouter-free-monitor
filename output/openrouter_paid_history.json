@@ -2091,5 +2091,40 @@
     "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.06 to $0.05 (省 20%)"
+  },
+  {
+    "timestamp": "2026-09-20 22:00:39 UTC",
+    "model_id": "~deepseek/deepseek-pro-latest",
+    "model_name": "DeepSeek: DeepSeek Pro Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.87 to $0.79 (省 9%)"
+  },
+  {
+    "timestamp": "2026-09-20 22:00:39 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.30 to $1.19 (省 8%)"
+  },
+  {
+    "timestamp": "2026-09-20 22:00:39 UTC",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.80 to $0.79 (省 1%)"
+  },
+  {
+    "timestamp": "2026-09-20 22:00:39 UTC",
+    "model_id": "deepseek/deepseek-v4-pro-0813",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.87 to $0.79 (省 9%)"
+  },
+  {
+    "timestamp": "2026-09-20 22:00:39 UTC",
+    "model_id": "meta/muse-glimmer-30b",
+    "model_name": "Meta: Muse Glimmer 30B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.64 to $0.52 (省 18%)"
   }
 ]
