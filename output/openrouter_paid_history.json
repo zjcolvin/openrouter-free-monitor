@@ -2126,5 +2126,33 @@
     "model_name": "Meta: Muse Glimmer 30B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.64 to $0.52 (省 18%)"
+  },
+  {
+    "timestamp": "2026-09-21 22:54:37 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.23 to $0.21 (省 8%)"
+  },
+  {
+    "timestamp": "2026-09-21 22:54:37 UTC",
+    "model_id": "~x-ai/grok-latest",
+    "model_name": "xAI: Grok Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.00 to $2.40 (省 20%)"
+  },
+  {
+    "timestamp": "2026-09-21 22:54:37 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.40 to $3.00 (省 12%)"
+  },
+  {
+    "timestamp": "2026-09-21 22:54:37 UTC",
+    "model_id": "nvidia/nemotron-3-nano-30b-a3b",
+    "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.10 to $0.09 (省 17%)"
   }
 ]
