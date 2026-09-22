@@ -2154,5 +2154,75 @@
     "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.10 to $0.09 (省 17%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "~deepseek/deepseek-pro-latest",
+    "model_name": "DeepSeek: DeepSeek Pro Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.80 to $0.60 (省 25%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "~openai/gpt-luna-latest",
+    "model_name": "OpenAI: GPT Luna Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.45 to $0.20 (省 56%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.20 (省 24%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "z-ai/glm-5.3-flash:batch",
+    "model_name": "Z.ai: GLM 5.3 Flash (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.10 (省 20%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.19 to $0.86 (省 27%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "z-ai/glm-5.3",
+    "model_name": "Z.ai: GLM 5.3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.40 to $0.86 (省 38%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.11 to $1.08 (省 2%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "~anthropic/claude-opus-latest",
+    "model_name": "Anthropic: Claude Opus Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $10.00 to $8.00 (省 20%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "openai/gpt-oss-20b",
+    "model_name": "OpenAI: gpt-oss-20b",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.06 to $0.04 (省 35%)"
+  },
+  {
+    "timestamp": "2026-09-22 22:28:42 UTC",
+    "model_id": "meta-llama/llama-4-maverick",
+    "model_name": "Meta: Llama 4 Maverick",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.35 to $0.30 (省 13%)"
   }
 ]
