@@ -478,5 +478,21 @@
     "provider": "deepseek",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-09-23 21:59:38 UTC",
+    "model_id": "stealth/space-bunny-alpha",
+    "model_name": "Space Bunny Alpha",
+    "provider": "stealth",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-09-23 21:59:38 UTC",
+    "model_id": "inclusionai/ling-3.0-flash-vl:free",
+    "model_name": "inclusionAI: Ling 3.0 Flash VL (free)",
+    "provider": "inclusionai",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
   }
 ]
