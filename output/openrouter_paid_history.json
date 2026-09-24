@@ -2252,5 +2252,54 @@
     "model_name": "DeepSeek: DeepSeek V4 Flash Latest",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.22 to $0.17 (省 25%)"
+  },
+  {
+    "timestamp": "2026-09-24 22:48:09 UTC",
+    "model_id": "~z-ai/glm-flash-latest",
+    "model_name": "Z.ai: GLM Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.07 (省 42%)"
+  },
+  {
+    "timestamp": "2026-09-24 22:48:09 UTC",
+    "model_id": "z-ai/glm-5.3-flash",
+    "model_name": "Z.ai: GLM 5.3 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.24 to $0.18 (省 23%)"
+  },
+  {
+    "timestamp": "2026-09-24 22:48:09 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.17 to $0.10 (省 38%)"
+  },
+  {
+    "timestamp": "2026-09-24 22:48:09 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.19 to $0.10 (省 46%)"
+  },
+  {
+    "timestamp": "2026-09-24 22:48:09 UTC",
+    "model_id": "moonshotai/kimi-k2.7-code",
+    "model_name": "MoonshotAI: Kimi K2.7 Code",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.35 to $1.32 (省 3%)"
+  },
+  {
+    "timestamp": "2026-09-24 22:48:09 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.18 to $1.07 (省 10%)"
+  },
+  {
+    "timestamp": "2026-09-24 22:48:09 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.09 to $0.06 (省 32%)"
   }
 ]
