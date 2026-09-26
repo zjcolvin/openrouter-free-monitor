@@ -2357,5 +2357,54 @@
     "model_name": "Google: Gemma 4 26B A4B ",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.14 to $0.11 (省 25%)"
+  },
+  {
+    "timestamp": "2026-09-26 22:14:40 UTC",
+    "model_id": "~deepseek/deepseek-pro-latest",
+    "model_name": "DeepSeek: DeepSeek Pro Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.06 to $0.37 (省 65%)"
+  },
+  {
+    "timestamp": "2026-09-26 22:14:40 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.22 to $0.10 (省 56%)"
+  },
+  {
+    "timestamp": "2026-09-26 22:14:40 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.22 to $0.10 (省 56%)"
+  },
+  {
+    "timestamp": "2026-09-26 22:14:40 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.86 to $0.58 (省 32%)"
+  },
+  {
+    "timestamp": "2026-09-26 22:14:40 UTC",
+    "model_id": "z-ai/glm-5.3",
+    "model_name": "Z.ai: GLM 5.3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $0.58 (省 73%)"
+  },
+  {
+    "timestamp": "2026-09-26 22:14:40 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.53 to $3.00 (省 15%)"
+  },
+  {
+    "timestamp": "2026-09-26 22:14:40 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.63 to $0.43 (省 30%)"
   }
 ]
