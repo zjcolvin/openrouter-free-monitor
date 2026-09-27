@@ -2406,5 +2406,40 @@
     "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.63 to $0.43 (省 30%)"
+  },
+  {
+    "timestamp": "2026-09-27 22:38:57 UTC",
+    "model_id": "~z-ai/glm-flash-latest",
+    "model_name": "Z.ai: GLM Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.07 (省 56%)"
+  },
+  {
+    "timestamp": "2026-09-27 22:38:57 UTC",
+    "model_id": "z-ai/glm-5.3-flash",
+    "model_name": "Z.ai: GLM 5.3 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.07 (省 56%)"
+  },
+  {
+    "timestamp": "2026-09-27 22:38:57 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.58 to $0.55 (省 6%)"
+  },
+  {
+    "timestamp": "2026-09-27 22:38:57 UTC",
+    "model_id": "minimax/minimax-m2.7",
+    "model_name": "MiniMax: MiniMax M2.7",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.37 (省 30%)"
+  },
+  {
+    "timestamp": "2026-09-27 22:38:57 UTC",
+    "model_id": "deepseek/deepseek-chat",
+    "model_name": "DeepSeek: DeepSeek V3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.46 to $0.45 (省 3%)"
   }
 ]
