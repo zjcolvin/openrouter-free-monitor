@@ -2644,5 +2644,68 @@
     "model_name": "MoonshotAI: Kimi K2.6",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.34 to $0.78 (省 42%)"
+  },
+  {
+    "timestamp": "2026-10-02 23:23:33 UTC",
+    "model_id": "~deepseek/deepseek-pro-latest",
+    "model_name": "DeepSeek: DeepSeek Pro Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.98 to $0.20 (省 80%)"
+  },
+  {
+    "timestamp": "2026-10-02 23:23:33 UTC",
+    "model_id": "inclusionai/ling-3.0-flash-fin",
+    "model_name": "inclusionAI: Ling 3.0 Flash Fin",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.09 to $0.06 (省 31%)"
+  },
+  {
+    "timestamp": "2026-10-02 23:23:33 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.33 to $0.16 (省 51%)"
+  },
+  {
+    "timestamp": "2026-10-02 23:23:33 UTC",
+    "model_id": "thinkingmachines/inkling",
+    "model_name": "Thinking Machines: Inkling",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.76 to $1.72 (省 2%)"
+  },
+  {
+    "timestamp": "2026-10-02 23:23:33 UTC",
+    "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "model_name": "NVIDIA: Nemotron 3 Ultra",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.05 to $0.93 (省 12%)"
+  },
+  {
+    "timestamp": "2026-10-02 23:23:33 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.05 to $0.04 (省 33%)"
+  },
+  {
+    "timestamp": "2026-10-02 23:23:33 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.11 (省 12%)"
+  },
+  {
+    "timestamp": "2026-10-02 23:23:33 UTC",
+    "model_id": "qwen/qwen3.5-35b-a3b",
+    "model_name": "Qwen: Qwen3.5-35B-A3B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.45 to $0.36 (省 19%)"
+  },
+  {
+    "timestamp": "2026-10-02 23:23:33 UTC",
+    "model_id": "deepseek/deepseek-v3.1-terminus",
+    "model_name": "DeepSeek: DeepSeek V3.1 Terminus",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.47 to $0.45 (省 5%)"
   }
 ]
