@@ -558,5 +558,13 @@
     "provider": "liquid",
     "status": "Moved",
     "note": "仍免費，但已不在主 free 榜"
+  },
+  {
+    "timestamp": "2026-10-03 21:57:08 UTC",
+    "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "model_name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+    "provider": "nvidia",
+    "status": "Moved",
+    "note": "仍免費，但已不在主 free 榜"
   }
 ]
