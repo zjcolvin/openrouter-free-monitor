@@ -2749,5 +2749,19 @@
     "model_name": "Z.ai: GLM 5.2",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.30 to $0.93 (省 29%)"
+  },
+  {
+    "timestamp": "2026-10-04 22:35:27 UTC",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.06 to $0.96 (省 10%)"
+  },
+  {
+    "timestamp": "2026-10-04 22:35:27 UTC",
+    "model_id": "deepseek/deepseek-chat-v3-0324",
+    "model_name": "DeepSeek: DeepSeek V3 0324",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.50 to $0.44 (省 13%)"
   }
 ]
