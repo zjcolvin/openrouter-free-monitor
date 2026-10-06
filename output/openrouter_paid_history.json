@@ -2763,5 +2763,47 @@
     "model_name": "DeepSeek: DeepSeek V3 0324",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.50 to $0.44 (省 13%)"
+  },
+  {
+    "timestamp": "2026-10-06 01:01:01 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.60 to $0.52 (省 13%)"
+  },
+  {
+    "timestamp": "2026-10-06 01:01:01 UTC",
+    "model_id": "z-ai/glm-5.3-flash",
+    "model_name": "Z.ai: GLM 5.3 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.24 to $0.15 (省 36%)"
+  },
+  {
+    "timestamp": "2026-10-06 01:01:01 UTC",
+    "model_id": "z-ai/glm-5.3",
+    "model_name": "Z.ai: GLM 5.3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $1.80 (省 16%)"
+  },
+  {
+    "timestamp": "2026-10-06 01:01:01 UTC",
+    "model_id": "deepseek/deepseek-v4-pro-0813",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.46 to $0.99 (省 32%)"
+  },
+  {
+    "timestamp": "2026-10-06 01:01:01 UTC",
+    "model_id": "openai/gpt-5.6-sol-pro",
+    "model_name": "OpenAI: GPT-5.6 Sol Pro",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $8.00 to $4.00 (省 50%)"
+  },
+  {
+    "timestamp": "2026-10-06 01:01:01 UTC",
+    "model_id": "qwen/qwen3.5-397b-a17b",
+    "model_name": "Qwen: Qwen3.5 397B A17B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.29 to $1.09 (省 16%)"
   }
 ]
