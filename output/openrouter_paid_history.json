@@ -2805,5 +2805,47 @@
     "model_name": "Qwen: Qwen3.5 397B A17B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.29 to $1.09 (省 16%)"
+  },
+  {
+    "timestamp": "2026-10-06 23:25:41 UTC",
+    "model_id": "~deepseek/deepseek-pro-latest",
+    "model_name": "DeepSeek: DeepSeek Pro Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.27 to $1.24 (省 3%)"
+  },
+  {
+    "timestamp": "2026-10-06 23:25:41 UTC",
+    "model_id": "tencent/hy4-preview",
+    "model_name": "Tencent: Hy4 preview",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.25 to $1.13 (省 10%)"
+  },
+  {
+    "timestamp": "2026-10-06 23:25:41 UTC",
+    "model_id": "meta/muse-glimmer-30b",
+    "model_name": "Meta: Muse Glimmer 30B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.64 to $0.52 (省 18%)"
+  },
+  {
+    "timestamp": "2026-10-06 23:25:41 UTC",
+    "model_id": "tencent/hy3",
+    "model_name": "Tencent: Hy3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.23 to $0.14 (省 37%)"
+  },
+  {
+    "timestamp": "2026-10-06 23:25:41 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.00 to $3.87 (省 3%)"
+  },
+  {
+    "timestamp": "2026-10-06 23:25:41 UTC",
+    "model_id": "qwen/qwen3.5-35b-a3b",
+    "model_name": "Qwen: Qwen3.5-35B-A3B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.36 to $0.25 (省 32%)"
   }
 ]
