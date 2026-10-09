@@ -2966,5 +2966,82 @@
     "model_name": "Meta: Llama 3.3 70B Instruct",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.29 to $0.15 (省 47%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "~deepseek/deepseek-pro-latest",
+    "model_name": "DeepSeek: DeepSeek Pro Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.08 to $1.48 (省 29%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.31 to $0.16 (省 48%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "tencent/hy4-preview",
+    "model_name": "Tencent: Hy4 preview",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.25 to $1.13 (省 10%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.02 to $1.53 (省 49%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "moonshotai/kimi-k3",
+    "model_name": "MoonshotAI: Kimi K3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.99 to $3.98 (省 0%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "tencent/hy3",
+    "model_name": "Tencent: Hy3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.23 to $0.14 (省 37%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.36 to $0.26 (省 27%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "moonshotai/kimi-k2.6",
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.96 to $0.94 (省 2%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.11 (省 12%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "qwen/qwen3.5-35b-a3b",
+    "model_name": "Qwen: Qwen3.5-35B-A3B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.36 to $0.25 (省 32%)"
+  },
+  {
+    "timestamp": "2026-10-09 23:39:24 UTC",
+    "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+    "model_name": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.75 to $0.47 (省 38%)"
   }
 ]
