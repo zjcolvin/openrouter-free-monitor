@@ -3099,5 +3099,47 @@
     "model_name": "Qwen: Qwen3.6 35B A3B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.36 to $0.31 (省 14%)"
+  },
+  {
+    "timestamp": "2026-10-11 23:17:17 UTC",
+    "model_id": "~deepseek/deepseek-pro-latest",
+    "model_name": "DeepSeek: DeepSeek Pro Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.33 to $0.31 (省 4%)"
+  },
+  {
+    "timestamp": "2026-10-11 23:17:17 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.06 (省 59%)"
+  },
+  {
+    "timestamp": "2026-10-11 23:17:17 UTC",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.96 to $0.60 (省 37%)"
+  },
+  {
+    "timestamp": "2026-10-11 23:17:17 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.33 to $0.24 (省 28%)"
+  },
+  {
+    "timestamp": "2026-10-11 23:17:17 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.33 to $0.24 (省 28%)"
+  },
+  {
+    "timestamp": "2026-10-11 23:17:17 UTC",
+    "model_id": "moonshotai/kimi-k3",
+    "model_name": "MoonshotAI: Kimi K3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.35 to $3.92 (省 10%)"
   }
 ]
