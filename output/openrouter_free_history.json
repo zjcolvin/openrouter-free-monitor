@@ -606,5 +606,13 @@
     "provider": "inclusionai",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-10-15 21:54:29 UTC",
+    "model_id": "nvidia/nemotron-3.5-super-vl:free",
+    "model_name": "NVIDIA: Nemotron 3.5 Super VL (free)",
+    "provider": "nvidia",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
