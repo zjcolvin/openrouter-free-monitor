@@ -614,5 +614,13 @@
     "provider": "nvidia",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-10-16 21:53:24 UTC",
+    "model_id": "xingchen-agi/xing4.0-29b-a4b:free",
+    "model_name": "XingChen: Xing4.0 29B A4B (free)",
+    "provider": "xingchen-agi",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
