@@ -3428,5 +3428,40 @@
     "model_name": "Meta: Llama 3.3 70B Instruct",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.64 to $0.15 (省 76%)"
+  },
+  {
+    "timestamp": "2026-10-17 21:49:48 UTC",
+    "model_id": "~unbiased/pareto-latest",
+    "model_name": "Pareto Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.75 to $1.40 (省 63%)"
+  },
+  {
+    "timestamp": "2026-10-17 21:49:48 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $6.22 to $3.70 (省 40%)"
+  },
+  {
+    "timestamp": "2026-10-17 21:49:48 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.35 to $0.26 (省 25%)"
+  },
+  {
+    "timestamp": "2026-10-17 21:49:48 UTC",
+    "model_id": "z-ai/glm-4.7",
+    "model_name": "Z.ai: GLM 4.7",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.00 to $0.90 (省 10%)"
+  },
+  {
+    "timestamp": "2026-10-17 21:49:48 UTC",
+    "model_id": "deepseek/deepseek-v3.2",
+    "model_name": "DeepSeek: DeepSeek V3.2",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.39 to $0.32 (省 20%)"
   }
 ]
