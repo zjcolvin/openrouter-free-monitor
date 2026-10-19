@@ -3540,5 +3540,33 @@
     "model_name": "Google: Gemma 3 27B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.17 to $0.15 (省 14%)"
+  },
+  {
+    "timestamp": "2026-10-19 23:11:22 UTC",
+    "model_id": "reflection/beam-1.0-501b-a23b",
+    "model_name": "Reflection: Beam 1.0 501B A23B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.50 to $0.47 (省 68%)"
+  },
+  {
+    "timestamp": "2026-10-19 23:11:22 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.19 to $0.04 (省 77%)"
+  },
+  {
+    "timestamp": "2026-10-19 23:11:22 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.07 to $0.03 (省 61%)"
+  },
+  {
+    "timestamp": "2026-10-19 23:11:22 UTC",
+    "model_id": "qwen/qwen3.5-27b",
+    "model_name": "Qwen: Qwen3.5-27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.84 to $0.74 (省 12%)"
   }
 ]
