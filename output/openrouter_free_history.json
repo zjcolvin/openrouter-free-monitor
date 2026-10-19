@@ -622,5 +622,13 @@
     "provider": "xingchen-agi",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-10-19 22:46:33 UTC",
+    "model_id": "minimax/minimax-m3.1-flash:free",
+    "model_name": "MiniMax: MiniMax M3.1 Flash (free)",
+    "provider": "minimax",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
