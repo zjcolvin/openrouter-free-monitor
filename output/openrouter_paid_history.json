@@ -3568,5 +3568,68 @@
     "model_name": "Qwen: Qwen3.5-27B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.84 to $0.74 (省 12%)"
+  },
+  {
+    "timestamp": "2026-10-20 22:46:29 UTC",
+    "model_id": "~z-ai/glm-flash-latest",
+    "model_name": "Z.ai: GLM Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.08 to $0.07 (省 14%)"
+  },
+  {
+    "timestamp": "2026-10-20 22:46:29 UTC",
+    "model_id": "z-ai/glm-5.3-flash",
+    "model_name": "Z.ai: GLM 5.3 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.08 to $0.07 (省 14%)"
+  },
+  {
+    "timestamp": "2026-10-20 22:46:29 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.54 to $0.41 (省 73%)"
+  },
+  {
+    "timestamp": "2026-10-20 22:46:29 UTC",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.73 to $0.37 (省 50%)"
+  },
+  {
+    "timestamp": "2026-10-20 22:46:29 UTC",
+    "model_id": "qwen/qwen3.6-35b-a3b",
+    "model_name": "Qwen: Qwen3.6 35B A3B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.36 to $0.31 (省 14%)"
+  },
+  {
+    "timestamp": "2026-10-20 22:46:29 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.45 to $0.42 (省 7%)"
+  },
+  {
+    "timestamp": "2026-10-20 22:46:29 UTC",
+    "model_id": "qwen/qwen3.5-397b-a17b",
+    "model_name": "Qwen: Qwen3.5 397B A17B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.27 to $0.88 (省 31%)"
+  },
+  {
+    "timestamp": "2026-10-20 22:46:29 UTC",
+    "model_id": "google/gemma-3-4b-it",
+    "model_name": "Google: Gemma 3 4B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.06 to $0.04 (省 32%)"
+  },
+  {
+    "timestamp": "2026-10-20 22:46:29 UTC",
+    "model_id": "deepseek/deepseek-chat",
+    "model_name": "DeepSeek: DeepSeek V3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.46 to $0.45 (省 3%)"
   }
 ]
