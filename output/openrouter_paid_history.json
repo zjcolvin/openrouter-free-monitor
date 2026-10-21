@@ -3631,5 +3631,54 @@
     "model_name": "DeepSeek: DeepSeek V3",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.46 to $0.45 (省 3%)"
+  },
+  {
+    "timestamp": "2026-10-21 22:51:57 UTC",
+    "model_id": "~z-ai/glm-flash-latest",
+    "model_name": "Z.ai: GLM Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.07 to $0.05 (省 23%)"
+  },
+  {
+    "timestamp": "2026-10-21 22:51:57 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.07 (省 49%)"
+  },
+  {
+    "timestamp": "2026-10-21 22:51:57 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.19 to $0.07 (省 66%)"
+  },
+  {
+    "timestamp": "2026-10-21 22:51:57 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $6.18 to $4.18 (省 32%)"
+  },
+  {
+    "timestamp": "2026-10-21 22:51:57 UTC",
+    "model_id": "xiaomi/mimo-v2.5-pro",
+    "model_name": "Xiaomi: MiMo-V2.5-Pro",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.54 to $0.38 (省 30%)"
+  },
+  {
+    "timestamp": "2026-10-21 22:51:57 UTC",
+    "model_id": "xiaomi/mimo-v2.5",
+    "model_name": "Xiaomi: MiMo-V2.5",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.15 (省 15%)"
+  },
+  {
+    "timestamp": "2026-10-21 22:51:57 UTC",
+    "model_id": "qwen/qwen3.5-9b",
+    "model_name": "Qwen: Qwen3.5-9B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.09 (省 18%)"
   }
 ]
