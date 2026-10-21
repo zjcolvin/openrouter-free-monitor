@@ -630,5 +630,13 @@
     "provider": "minimax",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-10-21 22:03:34 UTC",
+    "model_id": "recursive/flint-v1.0:free",
+    "model_name": "Recursive: Flint (free)",
+    "provider": "recursive",
+    "status": "New",
+    "note": "首次出現在免費清單"
   }
 ]
