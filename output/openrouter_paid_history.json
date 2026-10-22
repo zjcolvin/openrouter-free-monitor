@@ -3680,5 +3680,19 @@
     "model_name": "Qwen: Qwen3.5-9B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.11 to $0.09 (省 18%)"
+  },
+  {
+    "timestamp": "2026-10-22 22:50:12 UTC",
+    "model_id": "reflection/beam-1.0-501b-a23b",
+    "model_name": "Reflection: Beam 1.0 501B A23B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.47 to $0.44 (省 8%)"
+  },
+  {
+    "timestamp": "2026-10-22 22:50:12 UTC",
+    "model_id": "z-ai/glm-5.3-flash",
+    "model_name": "Z.ai: GLM 5.3 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.24 to $0.05 (省 77%)"
   }
 ]
