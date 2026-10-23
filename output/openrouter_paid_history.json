@@ -3694,5 +3694,40 @@
     "model_name": "Z.ai: GLM 5.3 Flash",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.24 to $0.05 (省 77%)"
+  },
+  {
+    "timestamp": "2026-10-23 22:43:22 UTC",
+    "model_id": "~z-ai/glm-flash-latest",
+    "model_name": "Z.ai: GLM Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.05 to $0.04 (省 21%)"
+  },
+  {
+    "timestamp": "2026-10-23 22:43:22 UTC",
+    "model_id": "z-ai/glm-5.3",
+    "model_name": "Z.ai: GLM 5.3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.07 to $0.41 (省 62%)"
+  },
+  {
+    "timestamp": "2026-10-23 22:43:22 UTC",
+    "model_id": "moonshotai/kimi-k3",
+    "model_name": "MoonshotAI: Kimi K3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.16 to $2.88 (省 9%)"
+  },
+  {
+    "timestamp": "2026-10-23 22:43:22 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.11 (省 12%)"
+  },
+  {
+    "timestamp": "2026-10-23 22:43:22 UTC",
+    "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+    "model_name": "Mistral: Mistral Small 3.2 24B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.13 to $0.11 (省 20%)"
   }
 ]
