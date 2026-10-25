@@ -3750,5 +3750,12 @@
     "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.87 to $0.26 (省 70%)"
+  },
+  {
+    "timestamp": "2026-10-25 22:08:35 UTC",
+    "model_id": "z-ai/glm-5.3",
+    "model_name": "Z.ai: GLM 5.3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.47 to $0.41 (省 13%)"
   }
 ]
