@@ -3757,5 +3757,54 @@
     "model_name": "Z.ai: GLM 5.3",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.47 to $0.41 (省 13%)"
+  },
+  {
+    "timestamp": "2026-10-26 23:26:01 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.27 to $0.15 (省 42%)"
+  },
+  {
+    "timestamp": "2026-10-26 23:26:01 UTC",
+    "model_id": "~openai/gpt-terra-latest",
+    "model_name": "OpenAI: GPT Terra Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.50 to $2.00 (省 56%)"
+  },
+  {
+    "timestamp": "2026-10-26 23:26:01 UTC",
+    "model_id": "~z-ai/glm-latest",
+    "model_name": "Z.ai: GLM Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.15 to $0.40 (省 65%)"
+  },
+  {
+    "timestamp": "2026-10-26 23:26:01 UTC",
+    "model_id": "moonshotai/kimi-k2.7-code",
+    "model_name": "MoonshotAI: Kimi K2.7 Code",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.34 to $1.20 (省 11%)"
+  },
+  {
+    "timestamp": "2026-10-26 23:26:01 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.11 to $2.15 (省 48%)"
+  },
+  {
+    "timestamp": "2026-10-26 23:26:01 UTC",
+    "model_id": "qwen/qwen3.6-35b-a3b",
+    "model_name": "Qwen: Qwen3.6 35B A3B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.31 to $0.30 (省 4%)"
+  },
+  {
+    "timestamp": "2026-10-26 23:26:01 UTC",
+    "model_id": "qwen/qwen3.5-122b-a10b",
+    "model_name": "Qwen: Qwen3.5-122B-A10B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.10 to $0.72 (省 35%)"
   }
 ]
