@@ -3806,5 +3806,33 @@
     "model_name": "Qwen: Qwen3.5-122B-A10B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.10 to $0.72 (省 35%)"
+  },
+  {
+    "timestamp": "2026-10-27 23:18:30 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.21 (省 60%)"
+  },
+  {
+    "timestamp": "2026-10-27 23:18:30 UTC",
+    "model_id": "moonshotai/kimi-k3",
+    "model_name": "MoonshotAI: Kimi K3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.13 to $5.12 (省 0%)"
+  },
+  {
+    "timestamp": "2026-10-27 23:18:30 UTC",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.06 (省 48%)"
+  },
+  {
+    "timestamp": "2026-10-27 23:18:30 UTC",
+    "model_id": "z-ai/glm-5.1",
+    "model_name": "Z.ai: GLM 5.1",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $1.48 (省 31%)"
   }
 ]
