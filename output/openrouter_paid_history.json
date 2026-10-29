@@ -3904,5 +3904,40 @@
     "model_name": "Qwen: Qwen3.6 27B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.04 to $1.01 (省 3%)"
+  },
+  {
+    "timestamp": "2026-10-29 23:41:19 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash-1017",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.46 to $0.31 (省 32%)"
+  },
+  {
+    "timestamp": "2026-10-29 23:41:19 UTC",
+    "model_id": "mistralai/mistral-large-4-0",
+    "model_name": "Mistral: Mistral Large 4",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.06 to $1.05 (省 49%)"
+  },
+  {
+    "timestamp": "2026-10-29 23:41:19 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.46 to $0.31 (省 32%)"
+  },
+  {
+    "timestamp": "2026-10-29 23:41:19 UTC",
+    "model_id": "moonshotai/kimi-k3",
+    "model_name": "MoonshotAI: Kimi K3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $5.14 to $2.88 (省 44%)"
+  },
+  {
+    "timestamp": "2026-10-29 23:41:19 UTC",
+    "model_id": "z-ai/glm-4.6",
+    "model_name": "Z.ai: GLM 4.6",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.96 to $0.88 (省 9%)"
   }
 ]
