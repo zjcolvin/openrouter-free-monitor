@@ -4065,5 +4065,12 @@
     "model_name": "MiniMax: MiniMax M2.5",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.52 to $0.44 (省 16%)"
+  },
+  {
+    "timestamp": "2026-11-01 23:12:06 UTC",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.60 to $0.58 (省 4%)"
   }
 ]
