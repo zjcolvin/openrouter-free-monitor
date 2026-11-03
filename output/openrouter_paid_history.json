@@ -4072,5 +4072,19 @@
     "model_name": "Qwen: Qwen3.8 27B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.60 to $0.58 (省 4%)"
+  },
+  {
+    "timestamp": "2026-11-03 01:54:34 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.12 (省 20%)"
+  },
+  {
+    "timestamp": "2026-11-03 01:54:34 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.06 (省 45%)"
   }
 ]
