@@ -4086,5 +4086,26 @@
     "model_name": "Google: Gemma 4 26B A4B ",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.11 to $0.06 (省 45%)"
+  },
+  {
+    "timestamp": "2026-11-04 00:15:12 UTC",
+    "model_id": "minimax/minimax-m3.1-flash",
+    "model_name": "MiniMax: MiniMax M3.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.13 (省 50%)"
+  },
+  {
+    "timestamp": "2026-11-04 00:15:12 UTC",
+    "model_id": "moonshotai/kimi-k3",
+    "model_name": "MoonshotAI: Kimi K3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.89 to $2.61 (省 33%)"
+  },
+  {
+    "timestamp": "2026-11-04 00:15:12 UTC",
+    "model_id": "meta-llama/llama-3.3-70b-instruct",
+    "model_name": "Meta: Llama 3.3 70B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.28 to $0.15 (省 45%)"
   }
 ]
