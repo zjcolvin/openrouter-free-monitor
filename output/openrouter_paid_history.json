@@ -4156,5 +4156,33 @@
     "model_name": "OpenAI: gpt-oss-20b",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.06 to $0.04 (省 35%)"
+  },
+  {
+    "timestamp": "2026-11-06 00:36:31 UTC",
+    "model_id": "deepseek/deepseek-v4-pro-0813",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.24 to $1.10 (省 11%)"
+  },
+  {
+    "timestamp": "2026-11-06 00:36:31 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.00 to $1.19 (省 40%)"
+  },
+  {
+    "timestamp": "2026-11-06 00:36:31 UTC",
+    "model_id": "minimax/minimax-m2.7",
+    "model_name": "MiniMax: MiniMax M2.7",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.37 (省 30%)"
+  },
+  {
+    "timestamp": "2026-11-06 00:36:31 UTC",
+    "model_id": "openai/gpt-oss-120b",
+    "model_name": "OpenAI: gpt-oss-120b",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.05 to $0.03 (省 27%)"
   }
 ]
