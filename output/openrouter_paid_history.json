@@ -4261,5 +4261,61 @@
     "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.87 to $0.63 (省 28%)"
+  },
+  {
+    "timestamp": "2026-11-08 23:15:29 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash:batch",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.17 to $0.06 (省 65%)"
+  },
+  {
+    "timestamp": "2026-11-08 23:15:29 UTC",
+    "model_id": "z-ai/glm-5.3-flash",
+    "model_name": "Z.ai: GLM 5.3 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.24 to $0.05 (省 81%)"
+  },
+  {
+    "timestamp": "2026-11-08 23:15:29 UTC",
+    "model_id": "z-ai/glm-5.3:batch",
+    "model_name": "Z.ai: GLM 5.3 (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.84 to $0.61 (省 27%)"
+  },
+  {
+    "timestamp": "2026-11-08 23:15:29 UTC",
+    "model_id": "moonshotai/kimi-k3:batch",
+    "model_name": "MoonshotAI: Kimi K3 (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.56 to $2.19 (省 52%)"
+  },
+  {
+    "timestamp": "2026-11-08 23:15:29 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.77 to $2.47 (省 11%)"
+  },
+  {
+    "timestamp": "2026-11-08 23:15:29 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.63 to $0.26 (省 59%)"
+  },
+  {
+    "timestamp": "2026-11-08 23:15:29 UTC",
+    "model_id": "openai/gpt-oss-120b",
+    "model_name": "OpenAI: gpt-oss-120b",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.03 (省 90%)"
+  },
+  {
+    "timestamp": "2026-11-08 23:15:29 UTC",
+    "model_id": "meta-llama/llama-3.1-8b-instruct",
+    "model_name": "Meta: Llama 3.1 8B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.06 to $0.03 (省 57%)"
   }
 ]
