@@ -4317,5 +4317,33 @@
     "model_name": "Meta: Llama 3.1 8B Instruct",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.06 to $0.03 (省 57%)"
+  },
+  {
+    "timestamp": "2026-11-10 02:26:47 UTC",
+    "model_id": "z-ai/glm-5.3-flash:batch",
+    "model_name": "Z.ai: GLM 5.3 Flash (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.08 to $0.04 (省 54%)"
+  },
+  {
+    "timestamp": "2026-11-10 02:26:47 UTC",
+    "model_id": "~anthropic/claude-fable-latest",
+    "model_name": "Anthropic: Claude Fable Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $20.00 to $16.00 (省 20%)"
+  },
+  {
+    "timestamp": "2026-11-10 02:26:47 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.08 (省 20%)"
+  },
+  {
+    "timestamp": "2026-11-10 02:26:47 UTC",
+    "model_id": "qwen/qwen3-14b",
+    "model_name": "Qwen: Qwen3 14B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.13 (省 13%)"
   }
 ]
