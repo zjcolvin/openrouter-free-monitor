@@ -742,5 +742,13 @@
     "provider": "stealth",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-11-10 23:52:49 UTC",
+    "model_id": "xingchen-agi/xing4.0-29b-a4b:free",
+    "model_name": "XingChen: Xing4.0 29B A4B (free)",
+    "provider": "xingchen-agi",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
   }
 ]
