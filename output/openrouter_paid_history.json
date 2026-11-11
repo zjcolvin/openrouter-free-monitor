@@ -4345,5 +4345,54 @@
     "model_name": "Qwen: Qwen3 14B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.15 to $0.13 (省 13%)"
+  },
+  {
+    "timestamp": "2026-11-11 00:17:14 UTC",
+    "model_id": "minimax/minimax-m3.1-flash",
+    "model_name": "MiniMax: MiniMax M3.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.13 (省 50%)"
+  },
+  {
+    "timestamp": "2026-11-11 00:17:14 UTC",
+    "model_id": "z-ai/glm-5.3-flash",
+    "model_name": "Z.ai: GLM 5.3 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.24 to $0.05 (省 79%)"
+  },
+  {
+    "timestamp": "2026-11-11 00:17:14 UTC",
+    "model_id": "z-ai/glm-5.2:batch",
+    "model_name": "Z.ai: GLM 5.2 (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.78 to $0.66 (省 15%)"
+  },
+  {
+    "timestamp": "2026-11-11 00:17:14 UTC",
+    "model_id": "~moonshotai/kimi-latest",
+    "model_name": "MoonshotAI: Kimi Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.76 to $2.47 (省 10%)"
+  },
+  {
+    "timestamp": "2026-11-11 00:17:14 UTC",
+    "model_id": "z-ai/glm-5.1",
+    "model_name": "Z.ai: GLM 5.1",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.15 to $2.04 (省 5%)"
+  },
+  {
+    "timestamp": "2026-11-11 00:17:14 UTC",
+    "model_id": "mancer/weaver",
+    "model_name": "Mancer: Weaver (alpha)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.49 to $0.35 (省 28%)"
+  },
+  {
+    "timestamp": "2026-11-11 00:17:14 UTC",
+    "model_id": "undi95/remm-slerp-l2-13b",
+    "model_name": "ReMM SLERP 13B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.42 to $0.35 (省 18%)"
   }
 ]
