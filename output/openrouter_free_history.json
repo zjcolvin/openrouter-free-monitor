@@ -758,5 +758,29 @@
     "provider": "baidu",
     "status": "New",
     "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-11-12 23:56:55 UTC",
+    "model_id": "apodex/apodex-1.1-mini:free",
+    "model_name": "Apodex: Apodex 1.1 Mini (free)",
+    "provider": "apodex",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-11-12 23:56:55 UTC",
+    "model_id": "particle-ai/particle-1:free",
+    "model_name": "Particle AI: Particle-1 (free)",
+    "provider": "particle-ai",
+    "status": "New",
+    "note": "首次出現在免費清單"
+  },
+  {
+    "timestamp": "2026-11-12 23:56:55 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it:free",
+    "model_name": "Google: Gemma 4 26B A4B  (free)",
+    "provider": "google",
+    "status": "Moved",
+    "note": "仍免費，但已不在主 free 榜"
   }
 ]
