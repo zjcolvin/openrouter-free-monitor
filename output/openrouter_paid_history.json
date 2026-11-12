@@ -4394,5 +4394,61 @@
     "model_name": "ReMM SLERP 13B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.42 to $0.35 (省 18%)"
+  },
+  {
+    "timestamp": "2026-11-12 01:43:16 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.13 to $0.12 (省 10%)"
+  },
+  {
+    "timestamp": "2026-11-12 01:43:16 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.12 (省 35%)"
+  },
+  {
+    "timestamp": "2026-11-12 01:43:16 UTC",
+    "model_id": "ibm-granite/granite-4.2-8b",
+    "model_name": "IBM: Granite 4.2 8B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.08 (省 23%)"
+  },
+  {
+    "timestamp": "2026-11-12 01:43:16 UTC",
+    "model_id": "z-ai/glm-5.3:batch",
+    "model_name": "Z.ai: GLM 5.3 (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.84 to $0.53 (省 37%)"
+  },
+  {
+    "timestamp": "2026-11-12 01:43:16 UTC",
+    "model_id": "z-ai/glm-5.2:batch",
+    "model_name": "Z.ai: GLM 5.2 (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.66 to $0.53 (省 20%)"
+  },
+  {
+    "timestamp": "2026-11-12 01:43:16 UTC",
+    "model_id": "qwen/qwen3.5-9b",
+    "model_name": "Qwen: Qwen3.5-9B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.19 to $0.15 (省 23%)"
+  },
+  {
+    "timestamp": "2026-11-12 01:43:16 UTC",
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax: MiniMax M2.5",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.47 (省 10%)"
+  },
+  {
+    "timestamp": "2026-11-12 01:43:16 UTC",
+    "model_id": "google/gemma-3-27b-it",
+    "model_name": "Google: Gemma 3 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.17 to $0.15 (省 14%)"
   }
 ]
