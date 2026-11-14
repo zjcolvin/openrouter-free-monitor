@@ -4541,5 +4541,33 @@
     "model_name": "DeepSeek: DeepSeek V3",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.46 to $0.45 (省 3%)"
+  },
+  {
+    "timestamp": "2026-11-14 23:28:21 UTC",
+    "model_id": "tencent/hy4-preview",
+    "model_name": "Tencent: Hy4 preview",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.25 to $1.13 (省 10%)"
+  },
+  {
+    "timestamp": "2026-11-14 23:28:21 UTC",
+    "model_id": "tencent/hy3",
+    "model_name": "Tencent: Hy3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.23 to $0.14 (省 37%)"
+  },
+  {
+    "timestamp": "2026-11-14 23:28:21 UTC",
+    "model_id": "z-ai/glm-5.2:batch",
+    "model_name": "Z.ai: GLM 5.2 (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.49 to $0.45 (省 7%)"
+  },
+  {
+    "timestamp": "2026-11-14 23:28:21 UTC",
+    "model_id": "qwen/qwen3.5-9b",
+    "model_name": "Qwen: Qwen3.5-9B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.18 to $0.06 (省 65%)"
   }
 ]
