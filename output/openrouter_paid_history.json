@@ -4499,5 +4499,47 @@
     "model_name": "MoonshotAI: Kimi K2.5",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.23 to $1.00 (省 19%)"
+  },
+  {
+    "timestamp": "2026-11-14 00:31:43 UTC",
+    "model_id": "ricursiveai/ripple-65b-preview",
+    "model_name": "Ricursive: Ripple 65B Preview",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.30 to $0.15 (省 50%)"
+  },
+  {
+    "timestamp": "2026-11-14 00:31:43 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.09 (省 24%)"
+  },
+  {
+    "timestamp": "2026-11-14 00:31:43 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.19 to $1.05 (省 12%)"
+  },
+  {
+    "timestamp": "2026-11-14 00:31:43 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.11 (省 12%)"
+  },
+  {
+    "timestamp": "2026-11-14 00:31:43 UTC",
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax: MiniMax M2.5",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.47 to $0.44 (省 7%)"
+  },
+  {
+    "timestamp": "2026-11-14 00:31:43 UTC",
+    "model_id": "deepseek/deepseek-chat",
+    "model_name": "DeepSeek: DeepSeek V3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.46 to $0.45 (省 3%)"
   }
 ]
