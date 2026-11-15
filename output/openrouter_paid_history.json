@@ -4569,5 +4569,40 @@
     "model_name": "Qwen: Qwen3.5-9B",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.18 to $0.06 (省 65%)"
+  },
+  {
+    "timestamp": "2026-11-15 23:37:48 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash-1017",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.04 (省 73%)"
+  },
+  {
+    "timestamp": "2026-11-15 23:37:48 UTC",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "model_name": "DeepSeek: DeepSeek Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.04 (省 73%)"
+  },
+  {
+    "timestamp": "2026-11-15 23:37:48 UTC",
+    "model_id": "ibm-granite/granite-4.2-8b",
+    "model_name": "IBM: Granite 4.2 8B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.08 (省 23%)"
+  },
+  {
+    "timestamp": "2026-11-15 23:37:48 UTC",
+    "model_id": "z-ai/glm-4.7",
+    "model_name": "Z.ai: GLM 4.7",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.00 to $0.74 (省 26%)"
+  },
+  {
+    "timestamp": "2026-11-15 23:37:48 UTC",
+    "model_id": "deepseek/deepseek-r1-0528",
+    "model_name": "DeepSeek: R1 0528",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.00 to $0.91 (省 9%)"
   }
 ]
