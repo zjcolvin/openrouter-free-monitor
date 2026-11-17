@@ -4604,5 +4604,89 @@
     "model_name": "DeepSeek: R1 0528",
     "status": "Price Drop",
     "note": "Blended Price dropped from $1.00 to $0.91 (省 9%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "moonshotai/kimi-k3.1-pro",
+    "model_name": "MoonshotAI: Kimi K3.1 Pro",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.00 to $2.28 (省 43%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "moonshotai/kimi-k3.1-pro:batch",
+    "model_name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.02 to $1.67 (省 17%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash-1017:batch",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.09 to $0.06 (省 24%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "z-ai/glm-5.3-prime",
+    "model_name": "Z.ai: GLM 5.3 Prime",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $4.30 to $2.58 (省 40%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "z-ai/glm-5.3-flash:batch",
+    "model_name": "Z.ai: GLM 5.3 Flash (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.08 to $0.04 (省 57%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "z-ai/glm-5.3",
+    "model_name": "Z.ai: GLM 5.3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.96 to $0.40 (省 58%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "z-ai/glm-5.3:batch",
+    "model_name": "Z.ai: GLM 5.3 (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.84 to $0.52 (省 38%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.09 (省 16%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "model_name": "NVIDIA: Nemotron 3 Ultra",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.05 to $0.93 (省 12%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "qwen/qwen3.5-397b-a17b",
+    "model_name": "Qwen: Qwen3.5 397B A17B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.35 to $1.09 (省 19%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "openai/gpt-oss-20b",
+    "model_name": "OpenAI: gpt-oss-20b",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.13 to $0.06 (省 58%)"
+  },
+  {
+    "timestamp": "2026-11-17 02:40:46 UTC",
+    "model_id": "z-ai/glm-4.5-air",
+    "model_name": "Z.ai: GLM 4.5 Air",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.43 to $0.31 (省 27%)"
   }
 ]
