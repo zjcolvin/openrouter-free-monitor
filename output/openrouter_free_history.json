@@ -814,5 +814,13 @@
     "provider": "thinkingmachines",
     "status": "Pending Removal",
     "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
+  },
+  {
+    "timestamp": "2026-11-21 00:33:31 UTC",
+    "model_id": "cohere/north-mini-code:free",
+    "model_name": "Cohere: North Mini Code (free)",
+    "provider": "cohere",
+    "status": "Pending Removal",
+    "note": "今日未出現；依規則需連續 2 次缺失才標記 Removed"
   }
 ]
