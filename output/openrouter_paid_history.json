@@ -4807,5 +4807,117 @@
     "model_name": "OpenAI: gpt-oss-120b",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.26 to $0.16 (省 40%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "minimax/minimax-m3.1-flash",
+    "model_name": "MiniMax: MiniMax M3.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.24 (省 10%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "~deepseek/deepseek-pro-latest",
+    "model_name": "DeepSeek: DeepSeek Pro Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $2.18 to $2.07 (省 5%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.09 (省 83%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash:batch",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.17 to $0.07 (省 55%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "z-ai/glm-5.3-flash",
+    "model_name": "Z.ai: GLM 5.3 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.24 to $0.05 (省 79%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-vision-exp",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.66 to $0.32 (省 51%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "qwen/qwen3.8-27b",
+    "model_name": "Qwen: Qwen3.8 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.60 to $0.54 (省 10%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "deepseek/deepseek-v4-pro-0813",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $3.08 to $1.98 (省 36%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.09 to $0.07 (省 27%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.15 to $0.11 (省 28%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "minimax/minimax-m3",
+    "model_name": "MiniMax: MiniMax M3",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.41 (省 21%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.11 (省 12%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "qwen/qwen3.5-27b",
+    "model_name": "Qwen: Qwen3.5-27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.84 to $0.54 (省 37%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax: MiniMax M2.5",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.52 to $0.44 (省 16%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
+    "model_name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.26 to $0.12 (省 53%)"
+  },
+  {
+    "timestamp": "2026-11-21 00:59:02 UTC",
+    "model_id": "deepseek/deepseek-chat-v3-0324",
+    "model_name": "DeepSeek: DeepSeek V3 0324",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.50 to $0.44 (省 13%)"
   }
 ]
