@@ -5108,5 +5108,89 @@
     "model_name": "Meta: Llama 3.3 70B Instruct",
     "status": "Price Drop",
     "note": "Blended Price dropped from $0.71 to $0.64 (省 10%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "thinkingmachines/inkling-2-mini",
+    "model_name": "Thinking Machines: Inkling 2 Mini",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.13 to $0.10 (省 20%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "thinkingmachines/inkling-2-small",
+    "model_name": "Thinking Machines: Inkling 2 Small",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.47 to $0.24 (省 50%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "reflection/beam-1.0-501b-a23b",
+    "model_name": "Reflection: Beam 1.0 501B A23B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.47 to $0.44 (省 8%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.21 to $0.18 (省 14%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "deepseek/deepseek-v4-flash-vision-exp",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.66 to $0.32 (省 51%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "nvidia/nemotron-3.5-lightning",
+    "model_name": "NVIDIA: Nemotron 3.5 Lightning",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.10 to $0.09 (省 15%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "model_name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.11 to $0.07 (省 38%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $1.04 to $0.72 (省 31%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.12 to $0.11 (省 12%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "qwen/qwen3.5-9b",
+    "model_name": "Qwen: Qwen3.5-9B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.14 to $0.10 (省 31%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "google/gemma-3-4b-it",
+    "model_name": "Google: Gemma 3 4B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.06 to $0.04 (省 32%)"
+  },
+  {
+    "timestamp": "2026-11-28 02:19:16 UTC",
+    "model_id": "google/gemma-3-27b-it",
+    "model_name": "Google: Gemma 3 27B",
+    "status": "Price Drop",
+    "note": "Blended Price dropped from $0.17 to $0.10 (省 42%)"
   }
 ]
